@@ -1,0 +1,59 @@
+[2025-10-15 19:21:32] Asterisk GIT-20-16bdaaa523 built by root @ buildkitsandbox on a x86_64 running Linux on 2025-10-15 19:08:21 UTC
+[2025-10-15 19:21:32] NOTICE[1] loader.c: 314 modules will be loaded.
+[2025-10-15 19:21:33] NOTICE[1] cdr.c: CDR simple logging enabled.
+[2025-10-15 19:21:33] WARNING[1] http.c: Ignoring unknown option 'wsenabled' in http.conf
+[2025-10-15 19:21:33] ERROR[1] tcptls.c: TLS/SSL error loading cert file. </etc/asterisk/keys/asterisk.crt>
+[2025-10-15 19:21:33] ERROR[1] tcptls.c: 136360527385216:error:02001002:system library:fopen:No such file or directory:../crypto/bio/bss_file.c:288:fopen('/etc/asterisk/keys/asterisk.crt','r')
+136360527385216:error:20074002:BIO routines:file_ctrl:system lib:../crypto/bio/bss_file.c:290:
+136360527385216:error:140DC002:SSL routines:use_certificate_chain_file:system lib:../ssl/ssl_rsa.c:596:
+
+[2025-10-15 19:21:33] NOTICE[1] indications.c: Default country for indication tones: us
+[2025-10-15 19:21:33] NOTICE[1] indications.c: Setting default indication country to 'us'
+[2025-10-15 19:21:33] ERROR[1] res_pjsip/config_transport.c: Transport: transport-wss: cert_file /etc/asterisk/keys/asterisk.crt is either missing or not readable
+[2025-10-15 19:21:33] ERROR[1] config_options.c: Error parsing cert_file=/etc/asterisk/keys/asterisk.crt at line 10 of 
+[2025-10-15 19:21:33] ERROR[1] res_sorcery_config.c: Could not create an object of type 'transport' with id 'transport-wss' from configuration file 'pjsip.conf'
+[2025-10-15 19:21:34] ERROR[1] res_sorcery_config.c: Unable to load config file 'websocket_client.conf'
+[2025-10-15 19:21:34] WARNING[1] res_phoneprov.c: Unable to find a valid server address or name.
+[2025-10-15 19:21:34] NOTICE[1] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[2025-10-15 19:21:34] NOTICE[1] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[2025-10-15 19:21:34] NOTICE[1] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[2025-10-15 19:21:34] WARNING[1] config.c: Unknown directive '#test' at line 18 of /etc/asterisk/extensions.conf
+[2025-10-15 19:21:34] WARNING[1] loader.c: Some non-required modules failed to load.
+[2025-10-15 19:21:34] WARNING[1] loader.c: Module 'res_adsi' has been loaded but may be removed in a future release.
+[2025-10-15 19:21:34] WARNING[1] loader.c: Module 'app_getcpeid' has been loaded but may be removed in a future release.
+[2025-10-15 19:21:34] WARNING[1] loader.c: Module 'app_adsiprog' has been loaded but may be removed in a future release.
+[2025-10-15 19:21:34] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
+[2025-10-15 19:21:34] ERROR[1] loader.c: cdr_csv declined to load.
+[2025-10-15 19:21:34] ERROR[1] loader.c: cel_sqlite3_custom declined to load.
+[2025-10-15 19:28:18] ERROR[102] res_pjsip/config_transport.c: Transport: transport-wss: cert_file /etc/asterisk/keys/asterisk.crt is either missing or not readable
+[2025-10-15 19:28:18] ERROR[102] config_options.c: Error parsing cert_file=/etc/asterisk/keys/asterisk.crt at line 10 of 
+[2025-10-15 19:28:18] ERROR[102] res_sorcery_config.c: Could not create an object of type 'transport' with id 'transport-wss' from configuration file 'pjsip.conf'
+[2025-10-15 19:28:18] NOTICE[102] sorcery.c: Type 'system' is not reloadable, maintaining previous values
+[2025-10-15 19:31:40] Asterisk GIT-20-16bdaaa523 built by root @ buildkitsandbox on a x86_64 running Linux on 2025-10-15 19:08:21 UTC
+[2025-10-15 20:00:37] Asterisk GIT-20-16bdaaa523 built by root @ buildkitsandbox on a x86_64 running Linux on 2025-10-15 19:08:21 UTC
+[2025-10-15 20:00:37] NOTICE[1] loader.c: 314 modules will be loaded.
+[2025-10-15 20:00:39] NOTICE[1] cdr.c: CDR simple logging enabled.
+[2025-10-15 20:00:39] WARNING[1] http.c: Ignoring unknown option 'wsenabled' in http.conf
+[2025-10-15 20:00:39] ERROR[1] tcptls.c: TLS/SSL error loading cert file. </etc/asterisk/keys/asterisk.crt>
+[2025-10-15 20:00:39] ERROR[1] tcptls.c: 134146128433792:error:02001002:system library:fopen:No such file or directory:../crypto/bio/bss_file.c:288:fopen('/etc/asterisk/keys/asterisk.crt','r')
+134146128433792:error:20074002:BIO routines:file_ctrl:system lib:../crypto/bio/bss_file.c:290:
+134146128433792:error:140DC002:SSL routines:use_certificate_chain_file:system lib:../ssl/ssl_rsa.c:596:
+
+[2025-10-15 20:00:39] NOTICE[1] indications.c: Default country for indication tones: us
+[2025-10-15 20:00:39] NOTICE[1] indications.c: Setting default indication country to 'us'
+[2025-10-15 20:00:40] ERROR[1] res_pjsip/config_transport.c: Transport: transport-wss: cert_file /etc/asterisk/keys/asterisk.crt is either missing or not readable
+[2025-10-15 20:00:40] ERROR[1] config_options.c: Error parsing cert_file=/etc/asterisk/keys/asterisk.crt at line 10 of 
+[2025-10-15 20:00:40] ERROR[1] res_sorcery_config.c: Could not create an object of type 'transport' with id 'transport-wss' from configuration file 'pjsip.conf'
+[2025-10-15 20:00:40] ERROR[1] res_sorcery_config.c: Unable to load config file 'websocket_client.conf'
+[2025-10-15 20:00:40] WARNING[1] res_phoneprov.c: Unable to find a valid server address or name.
+[2025-10-15 20:00:40] NOTICE[1] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[2025-10-15 20:00:40] NOTICE[1] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[2025-10-15 20:00:40] NOTICE[1] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[2025-10-15 20:00:40] WARNING[1] config.c: Unknown directive '#test' at line 18 of /etc/asterisk/extensions.conf
+[2025-10-15 20:00:41] WARNING[1] loader.c: Some non-required modules failed to load.
+[2025-10-15 20:00:41] WARNING[1] loader.c: Module 'res_adsi' has been loaded but may be removed in a future release.
+[2025-10-15 20:00:41] WARNING[1] loader.c: Module 'app_getcpeid' has been loaded but may be removed in a future release.
+[2025-10-15 20:00:41] WARNING[1] loader.c: Module 'app_adsiprog' has been loaded but may be removed in a future release.
+[2025-10-15 20:00:41] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
+[2025-10-15 20:00:41] ERROR[1] loader.c: cdr_csv declined to load.
+[2025-10-15 20:00:41] ERROR[1] loader.c: cel_sqlite3_custom declined to load.

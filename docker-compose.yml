@@ -7,6 +7,7 @@ services:
     container_name: asterisk
     volumes:
       - ./config_local:/config_local
-      - ./lib:/var/lib/asterisk
+#      - ./lib:/var/lib/asterisk
+      - ./etc:/etc/asterisk
       - ./spool:/var/spool/asterisk
       - ./log:/var/log/asterisk
