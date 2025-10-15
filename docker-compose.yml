@@ -1,0 +1,12 @@
+services:
+  asterisk:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: asterisk-local:latest   # gives the built image a name
+    container_name: asterisk
+    volumes:
+      - ./config_local:/config_local
+      - ./lib:/var/lib/asterisk
+      - ./spool:/var/spool/asterisk
+      - ./log:/var/log/asterisk
