@@ -1,13 +1,27 @@
+version: "3.8"
+
 services:
   asterisk:
     build:
       context: .
       dockerfile: Dockerfile
-    image: asterisk-local:latest   # gives the built image a name
+    image: asterisk-local:latest        # Gives the built image a name
     container_name: asterisk
+
+    # ---------- Network Ports ----------
+    ports:
+      - "5060:5060/udp"                # SIP UDP (Zoiper / softphones)
+      - "5060:5060/tcp"                # SIP TCP (optional)
+      - "5061:5061/tcp"                #
+      - "8088:8088/tcp"                # HTTP / ARI / WebSocket (optional)
+      - "8089:8089/tcp"                # HTTPS / WSS (for WebRTC, optional)
+ #     - "10000-20000:10000-20000/udp"  # RTP (audio stream ports)
+
+    # ---------- Volume Mounts ----------
     volumes:
-      - ./config_local:/config_local
-#      - ./lib:/var/lib/asterisk
-      - ./etc:/etc/asterisk
-      - ./spool:/var/spool/asterisk
-      - ./log:/var/log/asterisk
+      - ./config_local:/config_local          # Optional external config dir
+      - ./etc:/etc/asterisk                   # Main Asterisk configs (pjsip.conf, extensions.conf, etc.)
+      - ./spool:/var/spool/asterisk           # Voicemail, call recordings, etc.
+      - ./log:/var/log/asterisk               # Asterisk logs
+
+    restart: unless-stopped                   # Auto-restart if container exits
