@@ -1,0 +1,284 @@
+[2025-10-26 21:35:52] Asterisk GIT-20-aedfc116ef built by root @ buildkitsandbox on a x86_64 running Linux on 2025-10-26 21:26:40 UTC
+[2025-10-26 21:35:52] NOTICE[1] loader.c: 314 modules will be loaded.
+[2025-10-26 21:35:52] NOTICE[1] cdr.c: CDR simple logging enabled.
+[2025-10-26 21:35:52] WARNING[1] http.c: Ignoring unknown option 'wsenabled' in http.conf
+[2025-10-26 21:35:52] ERROR[1] tcptls.c: TLS/SSL error loading cert file. </etc/asterisk/keys/asterisk.crt>
+[2025-10-26 21:35:52] ERROR[1] tcptls.c: 126101826368128:error:02001002:system library:fopen:No such file or directory:../crypto/bio/bss_file.c:288:fopen('/etc/asterisk/keys/asterisk.crt','r')
+126101826368128:error:20074002:BIO routines:file_ctrl:system lib:../crypto/bio/bss_file.c:290:
+126101826368128:error:140DC002:SSL routines:use_certificate_chain_file:system lib:../ssl/ssl_rsa.c:596:
+
+[2025-10-26 21:35:52] NOTICE[1] indications.c: Default country for indication tones: us
+[2025-10-26 21:35:52] NOTICE[1] indications.c: Setting default indication country to 'us'
+[2025-10-26 21:35:52] ERROR[1] res_pjsip/config_transport.c: Transport: transport-wss: cert_file /etc/asterisk/keys/asterisk.crt is either missing or not readable
+[2025-10-26 21:35:52] ERROR[1] config_options.c: Error parsing cert_file=/etc/asterisk/keys/asterisk.crt at line 10 of 
+[2025-10-26 21:35:52] ERROR[1] res_sorcery_config.c: Could not create an object of type 'transport' with id 'transport-wss' from configuration file 'pjsip.conf'
+[2025-10-26 21:35:52] ERROR[1] config_options.c: Could not find option suitable for category '9008' named 'qualify_frequency' at line 66 of 
+[2025-10-26 21:35:52] ERROR[1] res_sorcery_config.c: Could not create an object of type 'endpoint' with id '9008' from configuration file 'pjsip.conf'
+[2025-10-26 21:35:52] ERROR[1] res_sorcery_config.c: Unable to load config file 'websocket_client.conf'
+[2025-10-26 21:35:52] WARNING[1] res_phoneprov.c: Unable to find a valid server address or name.
+[2025-10-26 21:35:52] NOTICE[1] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[2025-10-26 21:35:53] NOTICE[1] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[2025-10-26 21:35:53] NOTICE[1] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[2025-10-26 21:35:53] WARNING[1] config.c: Unknown directive '#test' at line 35 of /etc/asterisk/extensions.conf
+[2025-10-26 21:35:53] WARNING[1] loader.c: Some non-required modules failed to load.
+[2025-10-26 21:35:53] WARNING[1] loader.c: Module 'res_adsi' has been loaded but may be removed in a future release.
+[2025-10-26 21:35:53] WARNING[1] loader.c: Module 'app_getcpeid' has been loaded but may be removed in a future release.
+[2025-10-26 21:35:53] WARNING[1] loader.c: Module 'app_adsiprog' has been loaded but may be removed in a future release.
+[2025-10-26 21:35:53] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
+[2025-10-26 21:35:53] ERROR[1] loader.c: cdr_csv declined to load.
+[2025-10-26 21:35:53] ERROR[1] loader.c: cel_sqlite3_custom declined to load.
+[2025-10-26 21:36:22] NOTICE[44] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90010@192.168.31.132>' failed for '192.168.31.183:49858' (callid: _j4ep6XbUudI2lrOUkAA8w..) - No matching endpoint found
+[2025-10-26 21:36:22] NOTICE[44] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90010@192.168.31.132>' failed for '192.168.31.183:49858' (callid: _j4ep6XbUudI2lrOUkAA8w..) - No matching endpoint found
+[2025-10-26 21:36:22] NOTICE[44] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90010@192.168.31.132>' failed for '192.168.31.183:49858' (callid: _j4ep6XbUudI2lrOUkAA8w..) - Failed to authenticate
+[2025-10-26 21:36:54] NOTICE[44] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90010@192.168.31.132>' failed for '192.168.31.183:49858' (callid: 2IA8HqHFXAcUTjxfUX7zhg..) - No matching endpoint found
+[2025-10-26 21:36:54] NOTICE[44] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90010@192.168.31.132>' failed for '192.168.31.183:49858' (callid: 2IA8HqHFXAcUTjxfUX7zhg..) - No matching endpoint found
+[2025-10-26 21:36:54] NOTICE[44] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90010@192.168.31.132>' failed for '192.168.31.183:49858' (callid: 2IA8HqHFXAcUTjxfUX7zhg..) - Failed to authenticate
+[2025-10-26 21:37:27] NOTICE[44] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90010@192.168.31.132>' failed for '192.168.31.183:49858' (callid: rAyshPxumrUPvJKkTgGTvA..) - No matching endpoint found
+[2025-10-26 21:37:27] NOTICE[44] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90010@192.168.31.132>' failed for '192.168.31.183:49858' (callid: rAyshPxumrUPvJKkTgGTvA..) - No matching endpoint found
+[2025-10-26 21:37:27] NOTICE[44] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90010@192.168.31.132>' failed for '192.168.31.183:49858' (callid: rAyshPxumrUPvJKkTgGTvA..) - Failed to authenticate
+[2025-10-26 21:37:59] NOTICE[44] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90010@192.168.31.132>' failed for '192.168.31.183:49858' (callid: KRvpoXKxV3JTCq6how831A..) - No matching endpoint found
+[2025-10-26 21:37:59] NOTICE[44] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90010@192.168.31.132>' failed for '192.168.31.183:49858' (callid: KRvpoXKxV3JTCq6how831A..) - No matching endpoint found
+[2025-10-26 21:37:59] NOTICE[44] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90010@192.168.31.132>' failed for '192.168.31.183:49858' (callid: KRvpoXKxV3JTCq6how831A..) - Failed to authenticate
+[2025-10-26 21:38:31] NOTICE[44] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90010@192.168.31.132>' failed for '192.168.31.183:49858' (callid: QK0uGxkBrPvynYhmi3gPFA..) - No matching endpoint found
+[2025-10-26 21:38:32] NOTICE[44] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90010@192.168.31.132>' failed for '192.168.31.183:49858' (callid: QK0uGxkBrPvynYhmi3gPFA..) - No matching endpoint found
+[2025-10-26 21:38:32] NOTICE[44] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90010@192.168.31.132>' failed for '192.168.31.183:49858' (callid: QK0uGxkBrPvynYhmi3gPFA..) - Failed to authenticate
+[2025-10-26 21:38:32] NOTICE[44] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90010@192.168.31.132>' failed for '192.168.31.183:49858' (callid: QK0uGxkBrPvynYhmi3gPFA..) - No matching endpoint found
+[2025-10-26 21:38:32] NOTICE[44] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90010@192.168.31.132>' failed for '192.168.31.183:49858' (callid: QK0uGxkBrPvynYhmi3gPFA..) - Failed to authenticate
+[2025-10-26 21:39:04] NOTICE[44] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90010@192.168.31.132>' failed for '192.168.31.183:49858' (callid: -QQhpLH9u2Wccske39WXzA..) - No matching endpoint found
+[2025-10-26 21:39:04] NOTICE[44] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90010@192.168.31.132>' failed for '192.168.31.183:49858' (callid: -QQhpLH9u2Wccske39WXzA..) - No matching endpoint found
+[2025-10-26 21:39:04] NOTICE[44] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90010@192.168.31.132>' failed for '192.168.31.183:49858' (callid: -QQhpLH9u2Wccske39WXzA..) - Failed to authenticate
+[2025-10-26 21:39:36] NOTICE[44] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90010@192.168.31.132>' failed for '192.168.31.183:49858' (callid: yhHdPTO1FxKvcRZH4F2POw..) - No matching endpoint found
+[2025-10-26 21:39:36] NOTICE[44] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90010@192.168.31.132>' failed for '192.168.31.183:49858' (callid: yhHdPTO1FxKvcRZH4F2POw..) - No matching endpoint found
+[2025-10-26 21:39:36] NOTICE[44] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90010@192.168.31.132>' failed for '192.168.31.183:49858' (callid: yhHdPTO1FxKvcRZH4F2POw..) - Failed to authenticate
+[2025-10-26 21:39:37] Asterisk GIT-20-aedfc116ef built by root @ buildkitsandbox on a x86_64 running Linux on 2025-10-26 21:26:40 UTC
+[2025-10-26 21:39:37] NOTICE[1] loader.c: 314 modules will be loaded.
+[2025-10-26 21:39:37] NOTICE[1] cdr.c: CDR simple logging enabled.
+[2025-10-26 21:39:37] WARNING[1] http.c: Ignoring unknown option 'wsenabled' in http.conf
+[2025-10-26 21:39:37] ERROR[1] tcptls.c: TLS/SSL error loading cert file. </etc/asterisk/keys/asterisk.crt>
+[2025-10-26 21:39:37] ERROR[1] tcptls.c: 131313005126272:error:02001002:system library:fopen:No such file or directory:../crypto/bio/bss_file.c:288:fopen('/etc/asterisk/keys/asterisk.crt','r')
+131313005126272:error:20074002:BIO routines:file_ctrl:system lib:../crypto/bio/bss_file.c:290:
+131313005126272:error:140DC002:SSL routines:use_certificate_chain_file:system lib:../ssl/ssl_rsa.c:596:
+
+[2025-10-26 21:39:37] NOTICE[1] indications.c: Default country for indication tones: us
+[2025-10-26 21:39:37] NOTICE[1] indications.c: Setting default indication country to 'us'
+[2025-10-26 21:39:38] ERROR[1] res_pjsip/config_transport.c: Transport: transport-wss: cert_file /etc/asterisk/keys/asterisk.crt is either missing or not readable
+[2025-10-26 21:39:38] ERROR[1] config_options.c: Error parsing cert_file=/etc/asterisk/keys/asterisk.crt at line 10 of 
+[2025-10-26 21:39:38] ERROR[1] res_sorcery_config.c: Could not create an object of type 'transport' with id 'transport-wss' from configuration file 'pjsip.conf'
+[2025-10-26 21:39:38] ERROR[1] config_options.c: Could not find option suitable for category '9008' named 'qualify_frequency' at line 66 of 
+[2025-10-26 21:39:38] ERROR[1] res_sorcery_config.c: Could not create an object of type 'endpoint' with id '9008' from configuration file 'pjsip.conf'
+[2025-10-26 21:39:38] ERROR[1] config_options.c: Could not find option suitable for category '90010' named 'qualify_frequency' at line 128 of 
+[2025-10-26 21:39:38] ERROR[1] res_sorcery_config.c: Could not create an object of type 'endpoint' with id '90010' from configuration file 'pjsip.conf'
+[2025-10-26 21:39:38] ERROR[1] config_options.c: Could not find option suitable for category '90011' named 'qualify_frequency' at line 153 of 
+[2025-10-26 21:39:38] ERROR[1] res_sorcery_config.c: Could not create an object of type 'endpoint' with id '90011' from configuration file 'pjsip.conf'
+[2025-10-26 21:39:38] ERROR[1] res_sorcery_config.c: Unable to load config file 'websocket_client.conf'
+[2025-10-26 21:39:38] WARNING[1] res_phoneprov.c: Unable to find a valid server address or name.
+[2025-10-26 21:39:38] NOTICE[1] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[2025-10-26 21:39:38] NOTICE[1] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[2025-10-26 21:39:38] NOTICE[1] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[2025-10-26 21:39:38] WARNING[1] config.c: Unknown directive '#test' at line 35 of /etc/asterisk/extensions.conf
+[2025-10-26 21:39:38] WARNING[1] loader.c: Some non-required modules failed to load.
+[2025-10-26 21:39:38] WARNING[1] loader.c: Module 'res_adsi' has been loaded but may be removed in a future release.
+[2025-10-26 21:39:39] WARNING[1] loader.c: Module 'app_getcpeid' has been loaded but may be removed in a future release.
+[2025-10-26 21:39:39] WARNING[1] loader.c: Module 'app_adsiprog' has been loaded but may be removed in a future release.
+[2025-10-26 21:39:39] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
+[2025-10-26 21:39:39] ERROR[1] loader.c: cdr_csv declined to load.
+[2025-10-26 21:39:39] ERROR[1] loader.c: cel_sqlite3_custom declined to load.
+[2025-10-26 21:39:56] NOTICE[123] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90010@192.168.31.132>' failed for '192.168.31.183:49858' (callid: rXUeoSIPZpljZxuPLtlS8A..) - No matching endpoint found
+[2025-10-26 21:39:56] NOTICE[123] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90010@192.168.31.132>' failed for '192.168.31.183:49858' (callid: rXUeoSIPZpljZxuPLtlS8A..) - No matching endpoint found
+[2025-10-26 21:39:56] NOTICE[123] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90010@192.168.31.132>' failed for '192.168.31.183:49858' (callid: rXUeoSIPZpljZxuPLtlS8A..) - Failed to authenticate
+[2025-10-26 21:40:09] NOTICE[123] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90010@192.168.31.132>' failed for '192.168.31.183:49858' (callid: y0CJp1bY8pr64-dk-S65LQ..) - No matching endpoint found
+[2025-10-26 21:40:09] NOTICE[123] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90010@192.168.31.132>' failed for '192.168.31.183:49858' (callid: y0CJp1bY8pr64-dk-S65LQ..) - No matching endpoint found
+[2025-10-26 21:40:09] NOTICE[123] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90010@192.168.31.132>' failed for '192.168.31.183:49858' (callid: y0CJp1bY8pr64-dk-S65LQ..) - Failed to authenticate
+[2025-10-26 21:40:28] NOTICE[123] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90010@192.168.31.132>' failed for '192.168.31.183:49858' (callid: RTK9BZFGRLyF7gjUi6hL4A..) - No matching endpoint found
+[2025-10-26 21:40:28] NOTICE[123] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90010@192.168.31.132>' failed for '192.168.31.183:49858' (callid: RTK9BZFGRLyF7gjUi6hL4A..) - No matching endpoint found
+[2025-10-26 21:40:28] NOTICE[123] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90010@192.168.31.132>' failed for '192.168.31.183:49858' (callid: RTK9BZFGRLyF7gjUi6hL4A..) - Failed to authenticate
+[2025-10-26 21:40:41] NOTICE[123] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90010@192.168.31.132>' failed for '192.168.31.183:49858' (callid: JqyyAeAAHpo97NksNAVHMg..) - No matching endpoint found
+[2025-10-26 21:40:41] NOTICE[123] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90010@192.168.31.132>' failed for '192.168.31.183:49858' (callid: JqyyAeAAHpo97NksNAVHMg..) - No matching endpoint found
+[2025-10-26 21:40:41] NOTICE[123] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90010@192.168.31.132>' failed for '192.168.31.183:49858' (callid: JqyyAeAAHpo97NksNAVHMg..) - Failed to authenticate
+[2025-10-26 21:41:00] NOTICE[123] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90010@192.168.31.132>' failed for '192.168.31.183:49858' (callid: lasrm3_2zvIwmcx3fe-AcA..) - No matching endpoint found
+[2025-10-26 21:41:01] NOTICE[123] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90010@192.168.31.132>' failed for '192.168.31.183:49858' (callid: lasrm3_2zvIwmcx3fe-AcA..) - No matching endpoint found
+[2025-10-26 21:41:01] NOTICE[123] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90010@192.168.31.132>' failed for '192.168.31.183:49858' (callid: lasrm3_2zvIwmcx3fe-AcA..) - Failed to authenticate
+[2025-10-26 21:41:01] NOTICE[123] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90010@192.168.31.132>' failed for '192.168.31.183:49858' (callid: lasrm3_2zvIwmcx3fe-AcA..) - No matching endpoint found
+[2025-10-26 21:41:01] NOTICE[123] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90010@192.168.31.132>' failed for '192.168.31.183:49858' (callid: lasrm3_2zvIwmcx3fe-AcA..) - Failed to authenticate
+[2025-10-26 21:41:13] NOTICE[123] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90010@192.168.31.132>' failed for '192.168.31.183:49858' (callid: ESG7GD9MVK0Ak9omOT72pA..) - No matching endpoint found
+[2025-10-26 21:41:13] NOTICE[123] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90010@192.168.31.132>' failed for '192.168.31.183:49858' (callid: ESG7GD9MVK0Ak9omOT72pA..) - No matching endpoint found
+[2025-10-26 21:41:13] NOTICE[123] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90010@192.168.31.132>' failed for '192.168.31.183:49858' (callid: ESG7GD9MVK0Ak9omOT72pA..) - Failed to authenticate
+[2025-10-26 21:41:20] NOTICE[123] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90010@192.168.31.132>' failed for '192.168.31.183:49858' (callid: 1pIm7NQ6LeJ0za_BJzWF7w..) - No matching endpoint found
+[2025-10-26 21:41:20] NOTICE[123] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90010@192.168.31.132>' failed for '192.168.31.183:49858' (callid: 1pIm7NQ6LeJ0za_BJzWF7w..) - No matching endpoint found
+[2025-10-26 21:41:20] NOTICE[123] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90010@192.168.31.132>' failed for '192.168.31.183:49858' (callid: 1pIm7NQ6LeJ0za_BJzWF7w..) - Failed to authenticate
+[2025-10-26 21:41:33] NOTICE[123] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90010@192.168.31.132>' failed for '192.168.31.183:49858' (callid: UC0hB-0RcC1oe-rqUdSHkw..) - No matching endpoint found
+[2025-10-26 21:41:33] NOTICE[123] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90010@192.168.31.132>' failed for '192.168.31.183:49858' (callid: UC0hB-0RcC1oe-rqUdSHkw..) - No matching endpoint found
+[2025-10-26 21:41:33] NOTICE[123] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90010@192.168.31.132>' failed for '192.168.31.183:49858' (callid: UC0hB-0RcC1oe-rqUdSHkw..) - Failed to authenticate
+[2025-10-26 21:41:58] Asterisk GIT-20-aedfc116ef built by root @ buildkitsandbox on a x86_64 running Linux on 2025-10-26 21:26:40 UTC
+[2025-10-26 21:41:58] NOTICE[1] loader.c: 314 modules will be loaded.
+[2025-10-26 21:41:58] NOTICE[1] cdr.c: CDR simple logging enabled.
+[2025-10-26 21:41:58] WARNING[1] http.c: Ignoring unknown option 'wsenabled' in http.conf
+[2025-10-26 21:41:58] ERROR[1] tcptls.c: TLS/SSL error loading cert file. </etc/asterisk/keys/asterisk.crt>
+[2025-10-26 21:41:58] ERROR[1] tcptls.c: 131295777075840:error:02001002:system library:fopen:No such file or directory:../crypto/bio/bss_file.c:288:fopen('/etc/asterisk/keys/asterisk.crt','r')
+131295777075840:error:20074002:BIO routines:file_ctrl:system lib:../crypto/bio/bss_file.c:290:
+131295777075840:error:140DC002:SSL routines:use_certificate_chain_file:system lib:../ssl/ssl_rsa.c:596:
+
+[2025-10-26 21:41:58] NOTICE[1] indications.c: Default country for indication tones: us
+[2025-10-26 21:41:58] NOTICE[1] indications.c: Setting default indication country to 'us'
+[2025-10-26 21:41:59] ERROR[1] res_pjsip/config_transport.c: Transport: transport-wss: cert_file /etc/asterisk/keys/asterisk.crt is either missing or not readable
+[2025-10-26 21:41:59] ERROR[1] config_options.c: Error parsing cert_file=/etc/asterisk/keys/asterisk.crt at line 10 of 
+[2025-10-26 21:41:59] ERROR[1] res_sorcery_config.c: Could not create an object of type 'transport' with id 'transport-wss' from configuration file 'pjsip.conf'
+[2025-10-26 21:41:59] ERROR[1] config_options.c: Could not find option suitable for category '9008' named 'qualify_frequency' at line 66 of 
+[2025-10-26 21:41:59] ERROR[1] res_sorcery_config.c: Could not create an object of type 'endpoint' with id '9008' from configuration file 'pjsip.conf'
+[2025-10-26 21:41:59] ERROR[1] res_sorcery_config.c: Unable to load config file 'websocket_client.conf'
+[2025-10-26 21:41:59] WARNING[1] res_phoneprov.c: Unable to find a valid server address or name.
+[2025-10-26 21:41:59] NOTICE[1] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[2025-10-26 21:41:59] NOTICE[1] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[2025-10-26 21:41:59] NOTICE[1] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[2025-10-26 21:41:59] WARNING[1] config.c: Unknown directive '#test' at line 35 of /etc/asterisk/extensions.conf
+[2025-10-26 21:41:59] WARNING[1] loader.c: Some non-required modules failed to load.
+[2025-10-26 21:41:59] WARNING[1] loader.c: Module 'res_adsi' has been loaded but may be removed in a future release.
+[2025-10-26 21:41:59] WARNING[1] loader.c: Module 'app_getcpeid' has been loaded but may be removed in a future release.
+[2025-10-26 21:41:59] WARNING[1] loader.c: Module 'app_adsiprog' has been loaded but may be removed in a future release.
+[2025-10-26 21:41:59] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
+[2025-10-26 21:41:59] ERROR[1] loader.c: cdr_csv declined to load.
+[2025-10-26 21:41:59] ERROR[1] loader.c: cel_sqlite3_custom declined to load.
+[2025-10-26 21:42:01] NOTICE[44] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90010@192.168.31.132>' failed for '192.168.31.183:49858' (callid: NFJjcH6Hyh-l-nVSuGa3rw..) - No matching endpoint found
+[2025-10-26 21:42:01] NOTICE[44] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90010@192.168.31.132>' failed for '192.168.31.183:49858' (callid: NFJjcH6Hyh-l-nVSuGa3rw..) - No matching endpoint found
+[2025-10-26 21:42:01] NOTICE[44] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90010@192.168.31.132>' failed for '192.168.31.183:49858' (callid: NFJjcH6Hyh-l-nVSuGa3rw..) - Failed to authenticate
+[2025-10-26 21:42:05] NOTICE[44] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90010@192.168.31.132>' failed for '192.168.31.183:49858' (callid: eqNDAuMCH-dGcvHVbPQOyA..) - No matching endpoint found
+[2025-10-26 21:42:05] NOTICE[44] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90010@192.168.31.132>' failed for '192.168.31.183:49858' (callid: eqNDAuMCH-dGcvHVbPQOyA..) - No matching endpoint found
+[2025-10-26 21:42:05] NOTICE[44] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90010@192.168.31.132>' failed for '192.168.31.183:49858' (callid: eqNDAuMCH-dGcvHVbPQOyA..) - Failed to authenticate
+[2025-10-26 21:42:33] NOTICE[44] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90010@192.168.31.132>' failed for '192.168.31.183:49858' (callid: o4Mn44tG_hr6EeQaKwx9Aw..) - No matching endpoint found
+[2025-10-26 21:42:33] NOTICE[44] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90010@192.168.31.132>' failed for '192.168.31.183:49858' (callid: o4Mn44tG_hr6EeQaKwx9Aw..) - No matching endpoint found
+[2025-10-26 21:42:33] NOTICE[44] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90010@192.168.31.132>' failed for '192.168.31.183:49858' (callid: o4Mn44tG_hr6EeQaKwx9Aw..) - Failed to authenticate
+[2025-10-26 21:42:38] NOTICE[44] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90010@192.168.31.132>' failed for '192.168.31.183:49858' (callid: uY46M5mQaD3n2ftHu2PNng..) - No matching endpoint found
+[2025-10-26 21:42:38] NOTICE[44] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90010@192.168.31.132>' failed for '192.168.31.183:49858' (callid: uY46M5mQaD3n2ftHu2PNng..) - No matching endpoint found
+[2025-10-26 21:42:38] NOTICE[44] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90010@192.168.31.132>' failed for '192.168.31.183:49858' (callid: uY46M5mQaD3n2ftHu2PNng..) - Failed to authenticate
+[2025-10-26 21:43:06] NOTICE[44] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90010@192.168.31.132>' failed for '192.168.31.183:49858' (callid: BeWZNWT6TovFoNrp1kWRJA..) - No matching endpoint found
+[2025-10-26 21:43:06] NOTICE[44] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90010@192.168.31.132>' failed for '192.168.31.183:49858' (callid: BeWZNWT6TovFoNrp1kWRJA..) - No matching endpoint found
+[2025-10-26 21:43:06] NOTICE[44] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90010@192.168.31.132>' failed for '192.168.31.183:49858' (callid: BeWZNWT6TovFoNrp1kWRJA..) - Failed to authenticate
+[2025-10-26 21:43:10] NOTICE[44] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90010@192.168.31.132>' failed for '192.168.31.183:49858' (callid: 9A9h5QtP9-PWwdYpctpVHg..) - No matching endpoint found
+[2025-10-26 21:43:10] NOTICE[44] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90010@192.168.31.132>' failed for '192.168.31.183:49858' (callid: 9A9h5QtP9-PWwdYpctpVHg..) - No matching endpoint found
+[2025-10-26 21:43:10] NOTICE[44] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90010@192.168.31.132>' failed for '192.168.31.183:49858' (callid: 9A9h5QtP9-PWwdYpctpVHg..) - Failed to authenticate
+[2025-10-26 21:43:23] Asterisk GIT-20-aedfc116ef built by root @ buildkitsandbox on a x86_64 running Linux on 2025-10-26 21:26:40 UTC
+[2025-10-26 21:43:23] NOTICE[1] loader.c: 314 modules will be loaded.
+[2025-10-26 21:43:23] NOTICE[1] cdr.c: CDR simple logging enabled.
+[2025-10-26 21:43:23] WARNING[1] http.c: Ignoring unknown option 'wsenabled' in http.conf
+[2025-10-26 21:43:23] ERROR[1] tcptls.c: TLS/SSL error loading cert file. </etc/asterisk/keys/asterisk.crt>
+[2025-10-26 21:43:23] ERROR[1] tcptls.c: 136906092958336:error:02001002:system library:fopen:No such file or directory:../crypto/bio/bss_file.c:288:fopen('/etc/asterisk/keys/asterisk.crt','r')
+136906092958336:error:20074002:BIO routines:file_ctrl:system lib:../crypto/bio/bss_file.c:290:
+136906092958336:error:140DC002:SSL routines:use_certificate_chain_file:system lib:../ssl/ssl_rsa.c:596:
+
+[2025-10-26 21:43:23] NOTICE[1] indications.c: Default country for indication tones: us
+[2025-10-26 21:43:23] NOTICE[1] indications.c: Setting default indication country to 'us'
+[2025-10-26 21:43:23] ERROR[1] res_pjsip/config_transport.c: Transport: transport-wss: cert_file /etc/asterisk/keys/asterisk.crt is either missing or not readable
+[2025-10-26 21:43:23] ERROR[1] config_options.c: Error parsing cert_file=/etc/asterisk/keys/asterisk.crt at line 10 of 
+[2025-10-26 21:43:23] ERROR[1] res_sorcery_config.c: Could not create an object of type 'transport' with id 'transport-wss' from configuration file 'pjsip.conf'
+[2025-10-26 21:43:23] ERROR[1] config_options.c: Could not find option suitable for category '9008' named 'qualify_frequency' at line 66 of 
+[2025-10-26 21:43:23] ERROR[1] res_sorcery_config.c: Could not create an object of type 'endpoint' with id '9008' from configuration file 'pjsip.conf'
+[2025-10-26 21:43:23] ERROR[1] config_options.c: Could not find option suitable for category '90011' named 'qualify_frequency' at line 128 of 
+[2025-10-26 21:43:23] ERROR[1] res_sorcery_config.c: Could not create an object of type 'endpoint' with id '90011' from configuration file 'pjsip.conf'
+[2025-10-26 21:43:23] ERROR[1] res_sorcery_config.c: Unable to load config file 'websocket_client.conf'
+[2025-10-26 21:43:23] WARNING[1] res_phoneprov.c: Unable to find a valid server address or name.
+[2025-10-26 21:43:24] NOTICE[1] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[2025-10-26 21:43:24] NOTICE[1] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[2025-10-26 21:43:24] NOTICE[1] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[2025-10-26 21:43:24] WARNING[1] config.c: Unknown directive '#test' at line 35 of /etc/asterisk/extensions.conf
+[2025-10-26 21:43:24] WARNING[1] loader.c: Some non-required modules failed to load.
+[2025-10-26 21:43:24] WARNING[1] loader.c: Module 'res_adsi' has been loaded but may be removed in a future release.
+[2025-10-26 21:43:24] WARNING[1] loader.c: Module 'app_getcpeid' has been loaded but may be removed in a future release.
+[2025-10-26 21:43:24] WARNING[1] loader.c: Module 'app_adsiprog' has been loaded but may be removed in a future release.
+[2025-10-26 21:43:24] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
+[2025-10-26 21:43:24] ERROR[1] loader.c: cdr_csv declined to load.
+[2025-10-26 21:43:24] ERROR[1] loader.c: cel_sqlite3_custom declined to load.
+[2025-10-26 21:43:29] NOTICE[123] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90010@192.168.31.132>' failed for '192.168.31.183:49858' (callid: RWWO4TD7HNxOq7V7pSqJrg..) - No matching endpoint found
+[2025-10-26 21:43:29] NOTICE[123] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90010@192.168.31.132>' failed for '192.168.31.183:49858' (callid: RWWO4TD7HNxOq7V7pSqJrg..) - No matching endpoint found
+[2025-10-26 21:43:29] NOTICE[123] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90010@192.168.31.132>' failed for '192.168.31.183:49858' (callid: RWWO4TD7HNxOq7V7pSqJrg..) - Failed to authenticate
+[2025-10-26 21:43:38] NOTICE[123] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90010@192.168.31.132>' failed for '192.168.31.183:49858' (callid: B3PKy7shh8ylh-ypb5yU2w..) - No matching endpoint found
+[2025-10-26 21:43:38] NOTICE[123] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90010@192.168.31.132>' failed for '192.168.31.183:49858' (callid: B3PKy7shh8ylh-ypb5yU2w..) - No matching endpoint found
+[2025-10-26 21:43:38] NOTICE[123] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90010@192.168.31.132>' failed for '192.168.31.183:49858' (callid: B3PKy7shh8ylh-ypb5yU2w..) - Failed to authenticate
+[2025-10-26 21:44:05] NOTICE[123] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90011@192.168.31.132>' failed for '192.168.31.183:49858' (callid: JUJ84vgeRT2UOIJ1GZLniw..) - No matching endpoint found
+[2025-10-26 21:44:05] NOTICE[123] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90011@192.168.31.132>' failed for '192.168.31.183:49858' (callid: JUJ84vgeRT2UOIJ1GZLniw..) - No matching endpoint found
+[2025-10-26 21:44:05] NOTICE[123] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90011@192.168.31.132>' failed for '192.168.31.183:49858' (callid: JUJ84vgeRT2UOIJ1GZLniw..) - Failed to authenticate
+[2025-10-26 21:44:09] NOTICE[123] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90011@192.168.31.132>' failed for '192.168.31.183:49858' (callid: wYZXYgT8pHVBKQVMpKRI9Q..) - No matching endpoint found
+[2025-10-26 21:44:09] NOTICE[123] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90011@192.168.31.132>' failed for '192.168.31.183:49858' (callid: wYZXYgT8pHVBKQVMpKRI9Q..) - No matching endpoint found
+[2025-10-26 21:44:09] NOTICE[123] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90011@192.168.31.132>' failed for '192.168.31.183:49858' (callid: wYZXYgT8pHVBKQVMpKRI9Q..) - Failed to authenticate
+[2025-10-26 21:44:17] NOTICE[123] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90011@192.168.31.132>' failed for '192.168.31.183:49858' (callid: 8IdHdo2ieCDwy_B8fvMSMw..) - No matching endpoint found
+[2025-10-26 21:44:17] NOTICE[123] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90011@192.168.31.132>' failed for '192.168.31.183:49858' (callid: 8IdHdo2ieCDwy_B8fvMSMw..) - No matching endpoint found
+[2025-10-26 21:44:17] NOTICE[123] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90011@192.168.31.132>' failed for '192.168.31.183:49858' (callid: 8IdHdo2ieCDwy_B8fvMSMw..) - Failed to authenticate
+[2025-10-26 21:44:26] Asterisk GIT-20-aedfc116ef built by root @ buildkitsandbox on a x86_64 running Linux on 2025-10-26 21:26:40 UTC
+[2025-10-26 21:44:26] NOTICE[1] loader.c: 314 modules will be loaded.
+[2025-10-26 21:44:26] NOTICE[1] cdr.c: CDR simple logging enabled.
+[2025-10-26 21:44:26] WARNING[1] http.c: Ignoring unknown option 'wsenabled' in http.conf
+[2025-10-26 21:44:26] ERROR[1] tcptls.c: TLS/SSL error loading cert file. </etc/asterisk/keys/asterisk.crt>
+[2025-10-26 21:44:26] ERROR[1] tcptls.c: 136185544274560:error:02001002:system library:fopen:No such file or directory:../crypto/bio/bss_file.c:288:fopen('/etc/asterisk/keys/asterisk.crt','r')
+136185544274560:error:20074002:BIO routines:file_ctrl:system lib:../crypto/bio/bss_file.c:290:
+136185544274560:error:140DC002:SSL routines:use_certificate_chain_file:system lib:../ssl/ssl_rsa.c:596:
+
+[2025-10-26 21:44:26] NOTICE[1] indications.c: Default country for indication tones: us
+[2025-10-26 21:44:26] NOTICE[1] indications.c: Setting default indication country to 'us'
+[2025-10-26 21:44:27] ERROR[1] res_pjsip/config_transport.c: Transport: transport-wss: cert_file /etc/asterisk/keys/asterisk.crt is either missing or not readable
+[2025-10-26 21:44:27] ERROR[1] config_options.c: Error parsing cert_file=/etc/asterisk/keys/asterisk.crt at line 10 of 
+[2025-10-26 21:44:27] ERROR[1] res_sorcery_config.c: Could not create an object of type 'transport' with id 'transport-wss' from configuration file 'pjsip.conf'
+[2025-10-26 21:44:27] ERROR[1] config_options.c: Could not find option suitable for category '9008' named 'qualify_frequency' at line 66 of 
+[2025-10-26 21:44:27] ERROR[1] res_sorcery_config.c: Could not create an object of type 'endpoint' with id '9008' from configuration file 'pjsip.conf'
+[2025-10-26 21:44:27] ERROR[1] config_options.c: Could not find option suitable for category '90011' named 'qualify_frequency' at line 128 of 
+[2025-10-26 21:44:27] ERROR[1] res_sorcery_config.c: Could not create an object of type 'endpoint' with id '90011' from configuration file 'pjsip.conf'
+[2025-10-26 21:44:27] ERROR[1] res_sorcery_config.c: Unable to load config file 'websocket_client.conf'
+[2025-10-26 21:44:27] WARNING[1] res_phoneprov.c: Unable to find a valid server address or name.
+[2025-10-26 21:44:27] NOTICE[1] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[2025-10-26 21:44:27] NOTICE[1] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[2025-10-26 21:44:27] NOTICE[1] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[2025-10-26 21:44:27] WARNING[1] config.c: Unknown directive '#test' at line 35 of /etc/asterisk/extensions.conf
+[2025-10-26 21:44:27] WARNING[1] loader.c: Some non-required modules failed to load.
+[2025-10-26 21:44:27] WARNING[1] loader.c: Module 'res_adsi' has been loaded but may be removed in a future release.
+[2025-10-26 21:44:28] WARNING[1] loader.c: Module 'app_getcpeid' has been loaded but may be removed in a future release.
+[2025-10-26 21:44:28] WARNING[1] loader.c: Module 'app_adsiprog' has been loaded but may be removed in a future release.
+[2025-10-26 21:44:28] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
+[2025-10-26 21:44:28] ERROR[1] loader.c: cdr_csv declined to load.
+[2025-10-26 21:44:28] ERROR[1] loader.c: cel_sqlite3_custom declined to load.
+[2025-10-26 21:44:33] NOTICE[196] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90011@192.168.31.132>' failed for '192.168.31.183:49858' (callid: lsUJIomFpHlzPXBMyKbAeg..) - No matching endpoint found
+[2025-10-26 21:44:33] NOTICE[196] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90011@192.168.31.132>' failed for '192.168.31.183:49858' (callid: lsUJIomFpHlzPXBMyKbAeg..) - No matching endpoint found
+[2025-10-26 21:44:33] NOTICE[196] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90011@192.168.31.132>' failed for '192.168.31.183:49858' (callid: lsUJIomFpHlzPXBMyKbAeg..) - Failed to authenticate
+[2025-10-26 21:45:04] NOTICE[196] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90011@192.168.31.132>' failed for '192.168.31.183:49858' (callid: P00_rf3eLgTq4WXOCc2P7A..) - No matching endpoint found
+[2025-10-26 21:45:04] NOTICE[196] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90011@192.168.31.132>' failed for '192.168.31.183:49858' (callid: P00_rf3eLgTq4WXOCc2P7A..) - No matching endpoint found
+[2025-10-26 21:45:04] NOTICE[196] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90011@192.168.31.132>' failed for '192.168.31.183:49858' (callid: P00_rf3eLgTq4WXOCc2P7A..) - Failed to authenticate
+[2025-10-26 21:46:24] NOTICE[196] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90011@192.168.31.132>' failed for '192.168.31.183:49858' (callid: 6wtDhxJg_hxgeVLJN62J0Q..) - No matching endpoint found
+[2025-10-26 21:46:24] NOTICE[196] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90011@192.168.31.132>' failed for '192.168.31.183:49858' (callid: 6wtDhxJg_hxgeVLJN62J0Q..) - No matching endpoint found
+[2025-10-26 21:46:24] NOTICE[196] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90011@192.168.31.132>' failed for '192.168.31.183:49858' (callid: 6wtDhxJg_hxgeVLJN62J0Q..) - Failed to authenticate
+[2025-10-26 21:47:28] ERROR[196] res_pjsip/config_transport.c: Transport: transport-wss: cert_file /etc/asterisk/keys/asterisk.crt is either missing or not readable
+[2025-10-26 21:47:28] ERROR[196] config_options.c: Error parsing cert_file=/etc/asterisk/keys/asterisk.crt at line 10 of 
+[2025-10-26 21:47:28] ERROR[196] res_sorcery_config.c: Could not create an object of type 'transport' with id 'transport-wss' from configuration file 'pjsip.conf'
+[2025-10-26 21:47:28] ERROR[196] config_options.c: Could not find option suitable for category '9008' named 'qualify_frequency' at line 66 of 
+[2025-10-26 21:47:28] ERROR[196] res_sorcery_config.c: Could not create an object of type 'endpoint' with id '9008' from configuration file 'pjsip.conf'
+[2025-10-26 21:47:28] ERROR[196] config_options.c: Could not find option suitable for category '90011' named 'qualify_frequency' at line 128 of 
+[2025-10-26 21:47:28] ERROR[196] res_sorcery_config.c: Could not create an object of type 'endpoint' with id '90011' from configuration file 'pjsip.conf'
+[2025-10-26 21:47:28] NOTICE[196] sorcery.c: Type 'system' is not reloadable, maintaining previous values
+[2025-10-26 21:47:44] NOTICE[196] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90011@192.168.31.132>' failed for '192.168.31.183:49858' (callid: fZd3oAAwf_GkBNYuQQU1yQ..) - No matching endpoint found
+[2025-10-26 21:47:44] NOTICE[196] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90011@192.168.31.132>' failed for '192.168.31.183:49858' (callid: fZd3oAAwf_GkBNYuQQU1yQ..) - No matching endpoint found
+[2025-10-26 21:47:44] NOTICE[196] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:90011@192.168.31.132>' failed for '192.168.31.183:49858' (callid: fZd3oAAwf_GkBNYuQQU1yQ..) - Failed to authenticate
+[2025-10-26 21:50:21] Asterisk GIT-20-aedfc116ef built by root @ buildkitsandbox on a x86_64 running Linux on 2025-10-26 21:26:40 UTC
+[2025-10-26 21:50:21] NOTICE[1] loader.c: 314 modules will be loaded.
+[2025-10-26 21:50:21] NOTICE[1] cdr.c: CDR simple logging enabled.
+[2025-10-26 21:50:21] WARNING[1] http.c: Ignoring unknown option 'wsenabled' in http.conf
+[2025-10-26 21:50:21] ERROR[1] tcptls.c: TLS/SSL error loading cert file. </etc/asterisk/keys/asterisk.crt>
+[2025-10-26 21:50:21] ERROR[1] tcptls.c: 128452824113792:error:02001002:system library:fopen:No such file or directory:../crypto/bio/bss_file.c:288:fopen('/etc/asterisk/keys/asterisk.crt','r')
+128452824113792:error:20074002:BIO routines:file_ctrl:system lib:../crypto/bio/bss_file.c:290:
+128452824113792:error:140DC002:SSL routines:use_certificate_chain_file:system lib:../ssl/ssl_rsa.c:596:
+
+[2025-10-26 21:50:21] NOTICE[1] indications.c: Default country for indication tones: us
+[2025-10-26 21:50:21] NOTICE[1] indications.c: Setting default indication country to 'us'
+[2025-10-26 21:50:21] ERROR[1] res_pjsip/config_transport.c: Transport: transport-wss: cert_file /etc/asterisk/keys/asterisk.crt is either missing or not readable
+[2025-10-26 21:50:21] ERROR[1] config_options.c: Error parsing cert_file=/etc/asterisk/keys/asterisk.crt at line 10 of 
+[2025-10-26 21:50:21] ERROR[1] res_sorcery_config.c: Could not create an object of type 'transport' with id 'transport-wss' from configuration file 'pjsip.conf'
+[2025-10-26 21:50:21] ERROR[1] config_options.c: Could not find option suitable for category '9008' named 'qualify_frequency' at line 66 of 
+[2025-10-26 21:50:21] ERROR[1] res_sorcery_config.c: Could not create an object of type 'endpoint' with id '9008' from configuration file 'pjsip.conf'
+[2025-10-26 21:50:22] ERROR[1] res_sorcery_config.c: Unable to load config file 'websocket_client.conf'
+[2025-10-26 21:50:22] WARNING[1] res_phoneprov.c: Unable to find a valid server address or name.
+[2025-10-26 21:50:22] NOTICE[1] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[2025-10-26 21:50:22] NOTICE[1] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[2025-10-26 21:50:22] NOTICE[1] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[2025-10-26 21:50:22] WARNING[1] config.c: Unknown directive '#test' at line 35 of /etc/asterisk/extensions.conf
+[2025-10-26 21:50:22] WARNING[1] loader.c: Some non-required modules failed to load.
+[2025-10-26 21:50:22] WARNING[1] loader.c: Module 'res_adsi' has been loaded but may be removed in a future release.
+[2025-10-26 21:50:22] WARNING[1] loader.c: Module 'app_getcpeid' has been loaded but may be removed in a future release.
+[2025-10-26 21:50:22] WARNING[1] loader.c: Module 'app_adsiprog' has been loaded but may be removed in a future release.
+[2025-10-26 21:50:22] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
+[2025-10-26 21:50:22] ERROR[1] loader.c: cdr_csv declined to load.
+[2025-10-26 21:50:22] ERROR[1] loader.c: cel_sqlite3_custom declined to load.
