@@ -23,5 +23,6 @@ services:
       - ./etc:/etc/asterisk                   # Main Asterisk configs (pjsip.conf, extensions.conf, etc.)
       - ./spool:/var/spool/asterisk           # Voicemail, call recordings, etc.
       - ./log:/var/log/asterisk               # Asterisk logs
+      - ./certs:/etc/asterisk/keys 
 
     restart: unless-stopped                   # Auto-restart if container exits

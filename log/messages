@@ -282,3 +282,320 @@
 [2025-10-26 21:50:22] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
 [2025-10-26 21:50:22] ERROR[1] loader.c: cdr_csv declined to load.
 [2025-10-26 21:50:22] ERROR[1] loader.c: cel_sqlite3_custom declined to load.
+[2025-11-20 01:35:07] Asterisk GIT-20-802781db3f built by root @ buildkitsandbox on a x86_64 running Linux on 2025-11-20 01:27:51 UTC
+[2025-11-20 01:35:07] NOTICE[1] loader.c: 314 modules will be loaded.
+[2025-11-20 01:35:08] NOTICE[1] cdr.c: CDR simple logging enabled.
+[2025-11-20 01:35:08] WARNING[1] http.c: Ignoring unknown option 'wsenabled' in http.conf
+[2025-11-20 01:35:08] ERROR[1] tcptls.c: TLS/SSL error loading cert file. </etc/asterisk/keys/asterisk.crt>
+[2025-11-20 01:35:08] ERROR[1] tcptls.c: 130350938620544:error:02001002:system library:fopen:No such file or directory:../crypto/bio/bss_file.c:288:fopen('/etc/asterisk/keys/asterisk.crt','r')
+130350938620544:error:20074002:BIO routines:file_ctrl:system lib:../crypto/bio/bss_file.c:290:
+130350938620544:error:140DC002:SSL routines:use_certificate_chain_file:system lib:../ssl/ssl_rsa.c:596:
+
+[2025-11-20 01:35:08] NOTICE[1] indications.c: Default country for indication tones: us
+[2025-11-20 01:35:08] NOTICE[1] indications.c: Setting default indication country to 'us'
+[2025-11-20 01:35:08] ERROR[1] res_pjsip/config_transport.c: Transport: transport-wss: cert_file /etc/asterisk/keys/asterisk.crt is either missing or not readable
+[2025-11-20 01:35:08] ERROR[1] config_options.c: Error parsing cert_file=/etc/asterisk/keys/asterisk.crt at line 10 of 
+[2025-11-20 01:35:08] ERROR[1] res_sorcery_config.c: Could not create an object of type 'transport' with id 'transport-wss' from configuration file 'pjsip.conf'
+[2025-11-20 01:35:08] ERROR[1] config_options.c: Could not find option suitable for category '9008' named 'qualify_frequency' at line 66 of 
+[2025-11-20 01:35:08] ERROR[1] res_sorcery_config.c: Could not create an object of type 'endpoint' with id '9008' from configuration file 'pjsip.conf'
+[2025-11-20 01:35:08] ERROR[1] res_sorcery_config.c: Unable to load config file 'websocket_client.conf'
+[2025-11-20 01:35:08] WARNING[1] res_phoneprov.c: Unable to find a valid server address or name.
+[2025-11-20 01:35:08] NOTICE[1] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[2025-11-20 01:35:08] ERROR[1] res_sorcery_config.c: Unable to load config file 'chan_websocket.conf'
+[2025-11-20 01:35:08] NOTICE[1] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[2025-11-20 01:35:08] NOTICE[1] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[2025-11-20 01:35:08] WARNING[1] config.c: Unknown directive '#test' at line 35 of /etc/asterisk/extensions.conf
+[2025-11-20 01:35:09] WARNING[1] loader.c: Some non-required modules failed to load.
+[2025-11-20 01:35:09] WARNING[1] loader.c: Module 'res_adsi' has been loaded but may be removed in a future release.
+[2025-11-20 01:35:09] WARNING[1] loader.c: Module 'app_getcpeid' has been loaded but may be removed in a future release.
+[2025-11-20 01:35:09] WARNING[1] loader.c: Module 'app_adsiprog' has been loaded but may be removed in a future release.
+[2025-11-20 01:35:09] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
+[2025-11-20 01:35:09] ERROR[1] loader.c: cdr_csv declined to load.
+[2025-11-20 01:35:09] ERROR[1] loader.c: cel_sqlite3_custom declined to load.
+[2025-11-20 03:42:54] Asterisk GIT-20-802781db3f built by root @ buildkitsandbox on a x86_64 running Linux on 2025-11-20 03:35:39 UTC
+[2025-11-20 03:42:54] NOTICE[1] loader.c: 314 modules will be loaded.
+[2025-11-20 03:42:54] NOTICE[1] cdr.c: CDR simple logging enabled.
+[2025-11-20 03:42:54] WARNING[1] http.c: Ignoring unknown option 'wsenabled' in http.conf
+[2025-11-20 03:42:55] ERROR[1] tcptls.c: TLS/SSL error loading cert file. </etc/asterisk/keys/asterisk.crt>
+[2025-11-20 03:42:55] ERROR[1] tcptls.c: 133869360398976:error:02001002:system library:fopen:No such file or directory:../crypto/bio/bss_file.c:288:fopen('/etc/asterisk/keys/asterisk.crt','r')
+133869360398976:error:20074002:BIO routines:file_ctrl:system lib:../crypto/bio/bss_file.c:290:
+133869360398976:error:140DC002:SSL routines:use_certificate_chain_file:system lib:../ssl/ssl_rsa.c:596:
+
+[2025-11-20 03:42:55] NOTICE[1] indications.c: Default country for indication tones: us
+[2025-11-20 03:42:55] NOTICE[1] indications.c: Setting default indication country to 'us'
+[2025-11-20 03:42:55] ERROR[1] res_pjsip/config_transport.c: Transport: transport-wss: cert_file /etc/asterisk/keys/asterisk.crt is either missing or not readable
+[2025-11-20 03:42:55] ERROR[1] config_options.c: Error parsing cert_file=/etc/asterisk/keys/asterisk.crt at line 10 of 
+[2025-11-20 03:42:55] ERROR[1] res_sorcery_config.c: Could not create an object of type 'transport' with id 'transport-wss' from configuration file 'pjsip.conf'
+[2025-11-20 03:42:55] ERROR[1] config_options.c: Could not find option suitable for category '9008' named 'qualify_frequency' at line 66 of 
+[2025-11-20 03:42:55] ERROR[1] res_sorcery_config.c: Could not create an object of type 'endpoint' with id '9008' from configuration file 'pjsip.conf'
+[2025-11-20 03:42:55] ERROR[1] res_sorcery_config.c: Unable to load config file 'websocket_client.conf'
+[2025-11-20 03:42:55] WARNING[1] res_phoneprov.c: Unable to find a valid server address or name.
+[2025-11-20 03:42:55] NOTICE[1] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[2025-11-20 03:42:55] ERROR[1] res_sorcery_config.c: Unable to load config file 'chan_websocket.conf'
+[2025-11-20 03:42:55] NOTICE[1] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[2025-11-20 03:42:55] NOTICE[1] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[2025-11-20 03:42:56] WARNING[1] config.c: Unknown directive '#test' at line 35 of /etc/asterisk/extensions.conf
+[2025-11-20 03:42:56] WARNING[1] loader.c: Some non-required modules failed to load.
+[2025-11-20 03:42:56] WARNING[1] loader.c: Module 'res_adsi' has been loaded but may be removed in a future release.
+[2025-11-20 03:42:56] WARNING[1] loader.c: Module 'app_getcpeid' has been loaded but may be removed in a future release.
+[2025-11-20 03:42:56] WARNING[1] loader.c: Module 'app_adsiprog' has been loaded but may be removed in a future release.
+[2025-11-20 03:42:56] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
+[2025-11-20 03:42:56] ERROR[1] loader.c: cdr_csv declined to load.
+[2025-11-20 03:42:56] ERROR[1] loader.c: cel_sqlite3_custom declined to load.
+[2025-11-20 06:24:37] Asterisk GIT-20-802781db3f built by root @ buildkitsandbox on a x86_64 running Linux on 2025-11-20 03:35:39 UTC
+[2025-11-20 06:24:37] NOTICE[1] loader.c: 314 modules will be loaded.
+[2025-11-20 06:24:39] NOTICE[1] cdr.c: CDR simple logging enabled.
+[2025-11-20 06:24:39] WARNING[1] http.c: Ignoring unknown option 'wsenabled' in http.conf
+[2025-11-20 06:24:39] ERROR[1] tcptls.c: TLS/SSL error loading cert file. </etc/asterisk/keys/asterisk.crt>
+[2025-11-20 06:24:39] ERROR[1] tcptls.c: 126945852658304:error:02001002:system library:fopen:No such file or directory:../crypto/bio/bss_file.c:288:fopen('/etc/asterisk/keys/asterisk.crt','r')
+126945852658304:error:20074002:BIO routines:file_ctrl:system lib:../crypto/bio/bss_file.c:290:
+126945852658304:error:140DC002:SSL routines:use_certificate_chain_file:system lib:../ssl/ssl_rsa.c:596:
+
+[2025-11-20 06:24:39] NOTICE[1] indications.c: Default country for indication tones: us
+[2025-11-20 06:24:39] NOTICE[1] indications.c: Setting default indication country to 'us'
+[2025-11-20 06:24:40] ERROR[1] res_pjsip/config_transport.c: Transport: transport-wss: cert_file /etc/asterisk/keys/asterisk.crt is either missing or not readable
+[2025-11-20 06:24:40] ERROR[1] config_options.c: Error parsing cert_file=/etc/asterisk/keys/asterisk.crt at line 10 of 
+[2025-11-20 06:24:40] ERROR[1] res_sorcery_config.c: Could not create an object of type 'transport' with id 'transport-wss' from configuration file 'pjsip.conf'
+[2025-11-20 06:24:40] ERROR[1] config_options.c: Could not find option suitable for category '9008' named 'qualify_frequency' at line 66 of 
+[2025-11-20 06:24:40] ERROR[1] res_sorcery_config.c: Could not create an object of type 'endpoint' with id '9008' from configuration file 'pjsip.conf'
+[2025-11-20 06:24:40] ERROR[1] res_sorcery_config.c: Unable to load config file 'websocket_client.conf'
+[2025-11-20 06:24:41] WARNING[1] res_phoneprov.c: Unable to find a valid server address or name.
+[2025-11-20 06:24:41] NOTICE[1] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[2025-11-20 06:24:41] ERROR[1] res_sorcery_config.c: Unable to load config file 'chan_websocket.conf'
+[2025-11-20 06:24:41] NOTICE[1] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[2025-11-20 06:24:41] NOTICE[1] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[2025-11-20 06:24:41] WARNING[1] config.c: Unknown directive '#test' at line 35 of /etc/asterisk/extensions.conf
+[2025-11-20 06:24:42] WARNING[1] loader.c: Some non-required modules failed to load.
+[2025-11-20 06:24:42] WARNING[1] loader.c: Module 'res_adsi' has been loaded but may be removed in a future release.
+[2025-11-20 06:24:42] WARNING[1] loader.c: Module 'app_getcpeid' has been loaded but may be removed in a future release.
+[2025-11-20 06:24:42] WARNING[1] loader.c: Module 'app_adsiprog' has been loaded but may be removed in a future release.
+[2025-11-20 06:24:42] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
+[2025-11-20 06:24:42] ERROR[1] loader.c: cdr_csv declined to load.
+[2025-11-20 06:24:42] ERROR[1] loader.c: cel_sqlite3_custom declined to load.
+[2025-11-21 08:12:53] Asterisk GIT-20-802781db3f built by root @ buildkitsandbox on a x86_64 running Linux on 2025-11-20 03:35:39 UTC
+[2025-11-21 08:12:53] NOTICE[1] loader.c: 314 modules will be loaded.
+[2025-11-21 08:12:54] NOTICE[1] cdr.c: CDR simple logging enabled.
+[2025-11-21 08:12:54] WARNING[1] http.c: Ignoring unknown option 'wsenabled' in http.conf
+[2025-11-21 08:12:55] ERROR[1] tcptls.c: TLS/SSL error loading cert file. </etc/asterisk/keys/asterisk.crt>
+[2025-11-21 08:12:55] ERROR[1] tcptls.c: 129717919969920:error:02001002:system library:fopen:No such file or directory:../crypto/bio/bss_file.c:288:fopen('/etc/asterisk/keys/asterisk.crt','r')
+129717919969920:error:20074002:BIO routines:file_ctrl:system lib:../crypto/bio/bss_file.c:290:
+129717919969920:error:140DC002:SSL routines:use_certificate_chain_file:system lib:../ssl/ssl_rsa.c:596:
+
+[2025-11-21 08:12:55] NOTICE[1] indications.c: Default country for indication tones: us
+[2025-11-21 08:12:55] NOTICE[1] indications.c: Setting default indication country to 'us'
+[2025-11-21 08:12:55] ERROR[1] res_pjsip/config_transport.c: Transport: transport-wss: cert_file /etc/asterisk/keys/asterisk.crt is either missing or not readable
+[2025-11-21 08:12:55] ERROR[1] config_options.c: Error parsing cert_file=/etc/asterisk/keys/asterisk.crt at line 10 of 
+[2025-11-21 08:12:55] ERROR[1] res_sorcery_config.c: Could not create an object of type 'transport' with id 'transport-wss' from configuration file 'pjsip.conf'
+[2025-11-21 08:12:55] ERROR[1] config_options.c: Could not find option suitable for category '9008' named 'qualify_frequency' at line 66 of 
+[2025-11-21 08:12:55] ERROR[1] res_sorcery_config.c: Could not create an object of type 'endpoint' with id '9008' from configuration file 'pjsip.conf'
+[2025-11-21 08:12:55] ERROR[1] res_sorcery_config.c: Unable to load config file 'websocket_client.conf'
+[2025-11-21 08:12:55] WARNING[1] res_phoneprov.c: Unable to find a valid server address or name.
+[2025-11-21 08:12:55] NOTICE[1] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[2025-11-21 08:12:55] ERROR[1] res_sorcery_config.c: Unable to load config file 'chan_websocket.conf'
+[2025-11-21 08:12:55] NOTICE[1] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[2025-11-21 08:12:55] NOTICE[1] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[2025-11-21 08:12:56] WARNING[1] config.c: Unknown directive '#test' at line 35 of /etc/asterisk/extensions.conf
+[2025-11-21 08:12:56] WARNING[1] loader.c: Some non-required modules failed to load.
+[2025-11-21 08:12:56] WARNING[1] loader.c: Module 'res_adsi' has been loaded but may be removed in a future release.
+[2025-11-21 08:12:56] WARNING[1] loader.c: Module 'app_getcpeid' has been loaded but may be removed in a future release.
+[2025-11-21 08:12:56] WARNING[1] loader.c: Module 'app_adsiprog' has been loaded but may be removed in a future release.
+[2025-11-21 08:12:56] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
+[2025-11-21 08:12:56] ERROR[1] loader.c: cdr_csv declined to load.
+[2025-11-21 08:12:56] ERROR[1] loader.c: cel_sqlite3_custom declined to load.
+[2025-11-22 00:51:58] Asterisk GIT-20-802781db3f built by root @ buildkitsandbox on a x86_64 running Linux on 2025-11-20 03:35:39 UTC
+[2025-11-22 00:51:58] NOTICE[1] loader.c: 314 modules will be loaded.
+[2025-11-22 00:52:00] NOTICE[1] cdr.c: CDR simple logging enabled.
+[2025-11-22 00:52:00] WARNING[1] http.c: Ignoring unknown option 'wsenabled' in http.conf
+[2025-11-22 00:52:00] ERROR[1] tcptls.c: TLS/SSL error loading cert file. </etc/asterisk/keys/asterisk.crt>
+[2025-11-22 00:52:00] ERROR[1] tcptls.c: 137374268981888:error:02001002:system library:fopen:No such file or directory:../crypto/bio/bss_file.c:288:fopen('/etc/asterisk/keys/asterisk.crt','r')
+137374268981888:error:20074002:BIO routines:file_ctrl:system lib:../crypto/bio/bss_file.c:290:
+137374268981888:error:140DC002:SSL routines:use_certificate_chain_file:system lib:../ssl/ssl_rsa.c:596:
+
+[2025-11-22 00:52:00] NOTICE[1] indications.c: Default country for indication tones: us
+[2025-11-22 00:52:00] NOTICE[1] indications.c: Setting default indication country to 'us'
+[2025-11-22 00:52:00] ERROR[1] res_pjsip/config_transport.c: Transport: transport-wss: cert_file /etc/asterisk/keys/asterisk.crt is either missing or not readable
+[2025-11-22 00:52:00] ERROR[1] config_options.c: Error parsing cert_file=/etc/asterisk/keys/asterisk.crt at line 10 of 
+[2025-11-22 00:52:00] ERROR[1] res_sorcery_config.c: Could not create an object of type 'transport' with id 'transport-wss' from configuration file 'pjsip.conf'
+[2025-11-22 00:52:00] ERROR[1] config_options.c: Could not find option suitable for category '9008' named 'qualify_frequency' at line 66 of 
+[2025-11-22 00:52:00] ERROR[1] res_sorcery_config.c: Could not create an object of type 'endpoint' with id '9008' from configuration file 'pjsip.conf'
+[2025-11-22 00:52:00] ERROR[1] res_sorcery_config.c: Unable to load config file 'websocket_client.conf'
+[2025-11-22 00:52:01] WARNING[1] res_phoneprov.c: Unable to find a valid server address or name.
+[2025-11-22 00:52:01] NOTICE[1] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[2025-11-22 00:52:01] ERROR[1] res_sorcery_config.c: Unable to load config file 'chan_websocket.conf'
+[2025-11-22 00:52:01] NOTICE[1] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[2025-11-22 00:52:01] NOTICE[1] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[2025-11-22 00:52:01] WARNING[1] config.c: Unknown directive '#test' at line 35 of /etc/asterisk/extensions.conf
+[2025-11-22 00:52:01] WARNING[1] loader.c: Some non-required modules failed to load.
+[2025-11-22 00:52:01] WARNING[1] loader.c: Module 'res_adsi' has been loaded but may be removed in a future release.
+[2025-11-22 00:52:01] WARNING[1] loader.c: Module 'app_getcpeid' has been loaded but may be removed in a future release.
+[2025-11-22 00:52:02] WARNING[1] loader.c: Module 'app_adsiprog' has been loaded but may be removed in a future release.
+[2025-11-22 00:52:02] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
+[2025-11-22 00:52:02] ERROR[1] loader.c: cdr_csv declined to load.
+[2025-11-22 00:52:02] ERROR[1] loader.c: cel_sqlite3_custom declined to load.
+[2025-11-22 01:43:23] ERROR[135] res_pjsip/config_transport.c: Transport: transport-wss: cert_file /etc/asterisk/keys/asterisk.crt is either missing or not readable
+[2025-11-22 01:43:23] ERROR[135] config_options.c: Error parsing cert_file=/etc/asterisk/keys/asterisk.crt at line 10 of 
+[2025-11-22 01:43:23] ERROR[135] res_sorcery_config.c: Could not create an object of type 'transport' with id 'transport-wss' from configuration file 'pjsip.conf'
+[2025-11-22 01:43:23] ERROR[135] config_options.c: Could not find option suitable for category '9008' named 'qualify_frequency' at line 66 of 
+[2025-11-22 01:43:23] ERROR[135] res_sorcery_config.c: Could not create an object of type 'endpoint' with id '9008' from configuration file 'pjsip.conf'
+[2025-11-22 01:43:23] NOTICE[135] sorcery.c: Type 'system' is not reloadable, maintaining previous values
+[2025-11-24 18:01:29] Asterisk GIT-20-802781db3f built by root @ buildkitsandbox on a x86_64 running Linux on 2025-11-24 17:52:01 UTC
+[2025-11-24 18:01:29] NOTICE[1] loader.c: 318 modules will be loaded.
+[2025-11-24 18:01:30] NOTICE[1] cdr.c: CDR simple logging enabled.
+[2025-11-24 18:01:30] WARNING[1] http.c: Ignoring unknown option 'wsenabled' in http.conf
+[2025-11-24 18:01:30] ERROR[1] tcptls.c: TLS/SSL error loading cert file. </etc/asterisk/keys/asterisk.crt>
+[2025-11-24 18:01:30] ERROR[1] tcptls.c: C067E8E315790000:error:80000002:system library:file_ctrl:No such file or directory:../crypto/bio/bss_file.c:297:calling fopen(/etc/asterisk/keys/asterisk.crt, r)
+C067E8E315790000:error:10080002:BIO routines:file_ctrl:system lib:../crypto/bio/bss_file.c:300:
+C067E8E315790000:error:0A080002:SSL routines:use_certificate_chain_file:system lib:../ssl/ssl_rsa.c:448:
+
+[2025-11-24 18:01:30] NOTICE[1] indications.c: Default country for indication tones: us
+[2025-11-24 18:01:30] NOTICE[1] indications.c: Setting default indication country to 'us'
+[2025-11-24 18:01:34] ERROR[1] res_pjsip/config_transport.c: Transport: transport-wss: cert_file /etc/asterisk/keys/asterisk.crt is either missing or not readable
+[2025-11-24 18:01:34] ERROR[1] config_options.c: Error parsing cert_file=/etc/asterisk/keys/asterisk.crt at line 10 of 
+[2025-11-24 18:01:34] ERROR[1] res_sorcery_config.c: Could not create an object of type 'transport' with id 'transport-wss' from configuration file 'pjsip.conf'
+[2025-11-24 18:01:34] ERROR[1] config_options.c: Could not find option suitable for category '9008' named 'qualify_frequency' at line 66 of 
+[2025-11-24 18:01:34] ERROR[1] res_sorcery_config.c: Could not create an object of type 'endpoint' with id '9008' from configuration file 'pjsip.conf'
+[2025-11-24 18:01:34] ERROR[1] res_sorcery_config.c: Unable to load config file 'websocket_client.conf'
+[2025-11-24 18:01:34] WARNING[1] res_phoneprov.c: Unable to find a valid server address or name.
+[2025-11-24 18:01:34] NOTICE[1] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[2025-11-24 18:01:34] ERROR[1] res_sorcery_config.c: Unable to load config file 'chan_websocket.conf'
+[2025-11-24 18:01:34] NOTICE[1] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[2025-11-24 18:01:34] NOTICE[1] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[2025-11-24 18:01:34] WARNING[1] config.c: Unknown directive '#test' at line 35 of /etc/asterisk/extensions.conf
+[2025-11-24 18:01:35] WARNING[1] loader.c: Some non-required modules failed to load.
+[2025-11-24 18:01:35] WARNING[1] loader.c: Module 'res_adsi' has been loaded but may be removed in a future release.
+[2025-11-24 18:01:36] WARNING[1] loader.c: Module 'app_getcpeid' has been loaded but may be removed in a future release.
+[2025-11-24 18:01:36] WARNING[1] loader.c: Module 'app_adsiprog' has been loaded but may be removed in a future release.
+[2025-11-24 18:01:36] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
+[2025-11-24 18:01:36] ERROR[1] loader.c: cdr_csv declined to load.
+[2025-11-24 18:01:36] ERROR[1] loader.c: cel_sqlite3_custom declined to load.
+[2025-11-25 04:46:17] WARNING[96] res_http_websocket.c: WebSocket connection from '192.168.29.1:64347' could not be accepted - did not request WebSocket
+[2025-11-25 04:46:28] WARNING[96] res_http_websocket.c: WebSocket connection from '192.168.29.1:64347' could not be accepted - did not request WebSocket
+[2025-11-25 14:00:12] WARNING[113] res_http_websocket.c: WebSocket connection from '192.168.29.1:9830' could not be accepted - did not request WebSocket
+[2025-11-25 14:40:56] Asterisk GIT-20-802781db3f built by root @ buildkitsandbox on a x86_64 running Linux on 2025-11-24 17:52:01 UTC
+[2025-11-25 14:40:56] NOTICE[1] loader.c: 318 modules will be loaded.
+[2025-11-25 14:40:56] NOTICE[1] cdr.c: CDR simple logging enabled.
+[2025-11-25 14:40:56] WARNING[1] http.c: Ignoring unknown option 'wsenabled' in http.conf
+[2025-11-25 14:40:56] NOTICE[1] indications.c: Default country for indication tones: us
+[2025-11-25 14:40:56] NOTICE[1] indications.c: Setting default indication country to 'us'
+[2025-11-25 14:40:58] ERROR[47] iostream.c: Problem setting up ssl connection: error:00000001:lib(0)::reason(1), Internal SSL error
+[2025-11-25 14:40:58] ERROR[47] tcptls.c: Unable to set up ssl connection with peer '192.168.29.1:31299'
+[2025-11-25 14:40:58] ERROR[47] iostream.c: SSL_shutdown() failed: error:00000001:lib(0)::reason(1), Internal SSL error
+[2025-11-25 14:40:59] ERROR[1] config_options.c: Could not find option suitable for category 'transport-wss' named 'allow_invalid_cert' at line 14 of 
+[2025-11-25 14:40:59] ERROR[1] res_sorcery_config.c: Could not create an object of type 'transport' with id 'transport-wss' from configuration file 'pjsip.conf'
+[2025-11-25 14:40:59] ERROR[1] config_options.c: Could not find option suitable for category '9008' named 'qualify_frequency' at line 66 of 
+[2025-11-25 14:40:59] ERROR[1] res_sorcery_config.c: Could not create an object of type 'endpoint' with id '9008' from configuration file 'pjsip.conf'
+[2025-11-25 14:41:00] ERROR[1] res_sorcery_config.c: Unable to load config file 'websocket_client.conf'
+[2025-11-25 14:41:00] WARNING[1] res_phoneprov.c: Unable to find a valid server address or name.
+[2025-11-25 14:41:00] NOTICE[1] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[2025-11-25 14:41:00] ERROR[1] res_sorcery_config.c: Unable to load config file 'chan_websocket.conf'
+[2025-11-25 14:41:00] NOTICE[1] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[2025-11-25 14:41:00] NOTICE[1] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[2025-11-25 14:41:00] WARNING[1] config.c: Unknown directive '#test' at line 35 of /etc/asterisk/extensions.conf
+[2025-11-25 14:41:00] WARNING[1] loader.c: Some non-required modules failed to load.
+[2025-11-25 14:41:00] WARNING[1] loader.c: Module 'res_adsi' has been loaded but may be removed in a future release.
+[2025-11-25 14:41:00] WARNING[1] loader.c: Module 'app_getcpeid' has been loaded but may be removed in a future release.
+[2025-11-25 14:41:00] WARNING[1] loader.c: Module 'app_adsiprog' has been loaded but may be removed in a future release.
+[2025-11-25 14:41:00] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
+[2025-11-25 14:41:00] ERROR[1] loader.c: cdr_csv declined to load.
+[2025-11-25 14:41:00] ERROR[1] loader.c: cel_sqlite3_custom declined to load.
+[2025-11-25 14:41:29] ERROR[99] iostream.c: Problem setting up ssl connection: error:00000001:lib(0)::reason(1), Internal SSL error
+[2025-11-25 14:41:29] ERROR[99] tcptls.c: Unable to set up ssl connection with peer '192.168.29.1:32989'
+[2025-11-25 14:41:29] ERROR[99] iostream.c: SSL_shutdown() failed: error:00000001:lib(0)::reason(1), Internal SSL error
+[2025-11-25 14:41:48] ERROR[100] iostream.c: Problem setting up ssl connection: error:00000001:lib(0)::reason(1), Internal SSL error
+[2025-11-25 14:41:48] ERROR[100] tcptls.c: Unable to set up ssl connection with peer '192.168.29.1:39353'
+[2025-11-25 14:41:48] ERROR[100] iostream.c: SSL_shutdown() failed: error:00000001:lib(0)::reason(1), Internal SSL error
+[2025-11-25 14:41:50] ERROR[101] iostream.c: Problem setting up ssl connection: error:00000001:lib(0)::reason(1), Internal SSL error
+[2025-11-25 14:41:50] ERROR[101] tcptls.c: Unable to set up ssl connection with peer '192.168.29.1:16897'
+[2025-11-25 14:41:50] ERROR[101] iostream.c: SSL_shutdown() failed: error:00000001:lib(0)::reason(1), Internal SSL error
+[2025-11-25 14:41:50] ERROR[102] iostream.c: Problem setting up ssl connection: error:00000001:lib(0)::reason(1), Internal SSL error
+[2025-11-25 14:41:50] ERROR[102] tcptls.c: Unable to set up ssl connection with peer '192.168.29.1:28148'
+[2025-11-25 14:41:50] ERROR[102] iostream.c: SSL_shutdown() failed: error:00000001:lib(0)::reason(1), Internal SSL error
+[2025-11-25 14:41:52] ERROR[103] iostream.c: Problem setting up ssl connection: error:00000001:lib(0)::reason(1), Internal SSL error
+[2025-11-25 14:41:52] ERROR[103] tcptls.c: Unable to set up ssl connection with peer '192.168.29.1:1071'
+[2025-11-25 14:41:52] ERROR[103] iostream.c: SSL_shutdown() failed: error:00000001:lib(0)::reason(1), Internal SSL error
+[2025-11-25 14:41:55] ERROR[104] iostream.c: Problem setting up ssl connection: error:00000001:lib(0)::reason(1), Internal SSL error
+[2025-11-25 14:41:55] ERROR[104] tcptls.c: Unable to set up ssl connection with peer '192.168.29.1:41382'
+[2025-11-25 14:41:55] ERROR[104] iostream.c: SSL_shutdown() failed: error:00000001:lib(0)::reason(1), Internal SSL error
+[2025-11-25 14:42:07] ERROR[105] iostream.c: Problem setting up ssl connection: error:00000001:lib(0)::reason(1), Internal SSL error
+[2025-11-25 14:42:07] ERROR[105] tcptls.c: Unable to set up ssl connection with peer '192.168.29.1:63108'
+[2025-11-25 14:42:07] ERROR[105] iostream.c: SSL_shutdown() failed: error:00000001:lib(0)::reason(1), Internal SSL error
+[2025-11-25 14:42:07] ERROR[106] iostream.c: Problem setting up ssl connection: error:00000001:lib(0)::reason(1), Internal SSL error
+[2025-11-25 14:42:07] ERROR[106] tcptls.c: Unable to set up ssl connection with peer '192.168.29.1:23283'
+[2025-11-25 14:42:07] ERROR[106] iostream.c: SSL_shutdown() failed: error:00000001:lib(0)::reason(1), Internal SSL error
+[2025-11-25 14:42:10] ERROR[107] iostream.c: Problem setting up ssl connection: error:00000001:lib(0)::reason(1), Internal SSL error
+[2025-11-25 14:42:10] ERROR[107] tcptls.c: Unable to set up ssl connection with peer '192.168.29.1:13074'
+[2025-11-25 14:42:10] ERROR[107] iostream.c: SSL_shutdown() failed: error:00000001:lib(0)::reason(1), Internal SSL error
+[2025-11-25 14:42:10] ERROR[108] iostream.c: Problem setting up ssl connection: error:00000001:lib(0)::reason(1), Internal SSL error
+[2025-11-25 14:42:10] ERROR[108] tcptls.c: Unable to set up ssl connection with peer '192.168.29.1:15060'
+[2025-11-25 14:42:10] ERROR[108] iostream.c: SSL_shutdown() failed: error:00000001:lib(0)::reason(1), Internal SSL error
+[2025-11-25 14:43:51] ERROR[111] iostream.c: Problem setting up ssl connection: error:00000001:lib(0)::reason(1), Internal SSL error
+[2025-11-25 14:43:51] ERROR[111] tcptls.c: Unable to set up ssl connection with peer '192.168.29.1:5532'
+[2025-11-25 14:43:51] ERROR[111] iostream.c: SSL_shutdown() failed: error:00000001:lib(0)::reason(1), Internal SSL error
+[2025-11-25 14:43:51] ERROR[112] iostream.c: Problem setting up ssl connection: error:00000001:lib(0)::reason(1), Internal SSL error
+[2025-11-25 14:43:51] ERROR[112] tcptls.c: Unable to set up ssl connection with peer '192.168.29.1:51119'
+[2025-11-25 14:43:51] ERROR[112] iostream.c: SSL_shutdown() failed: error:00000001:lib(0)::reason(1), Internal SSL error
+[2025-11-25 14:43:54] ERROR[114] iostream.c: Problem setting up ssl connection: error:00000001:lib(0)::reason(1), Internal SSL error
+[2025-11-25 14:43:54] ERROR[114] tcptls.c: Unable to set up ssl connection with peer '192.168.29.1:44330'
+[2025-11-25 14:43:54] ERROR[114] iostream.c: SSL_shutdown() failed: error:00000001:lib(0)::reason(1), Internal SSL error
+[2025-11-25 14:56:47] Asterisk GIT-20-802781db3f built by root @ buildkitsandbox on a x86_64 running Linux on 2025-11-24 17:52:01 UTC
+[2025-11-25 14:56:47] NOTICE[1] loader.c: 318 modules will be loaded.
+[2025-11-25 14:56:47] NOTICE[1] cdr.c: CDR simple logging enabled.
+[2025-11-25 14:56:47] WARNING[1] http.c: Ignoring unknown option 'wsenabled' in http.conf
+[2025-11-25 14:56:47] NOTICE[1] indications.c: Default country for indication tones: us
+[2025-11-25 14:56:47] NOTICE[1] indications.c: Setting default indication country to 'us'
+[2025-11-25 14:56:47] WARNING[1] config.c: Unknown directive '#allow_reload=yes' at line 12 of /etc/asterisk/pjsip.conf
+[2025-11-25 14:56:50] ERROR[46] iostream.c: Problem setting up ssl connection: error:00000001:lib(0)::reason(1), Internal SSL error
+[2025-11-25 14:56:50] ERROR[46] tcptls.c: Unable to set up ssl connection with peer '192.168.29.1:64709'
+[2025-11-25 14:56:50] ERROR[46] iostream.c: SSL_shutdown() failed: error:00000001:lib(0)::reason(1), Internal SSL error
+[2025-11-25 14:56:50] ERROR[47] iostream.c: Problem setting up ssl connection: error:00000001:lib(0)::reason(1), Internal SSL error
+[2025-11-25 14:56:50] ERROR[47] tcptls.c: Unable to set up ssl connection with peer '192.168.29.1:43702'
+[2025-11-25 14:56:50] ERROR[47] iostream.c: SSL_shutdown() failed: error:00000001:lib(0)::reason(1), Internal SSL error
+[2025-11-25 14:56:51] WARNING[1] config.c: Unknown directive '#allow_reload=yes' at line 12 of /etc/asterisk/pjsip.conf
+[2025-11-25 14:56:51] WARNING[1] config.c: Unknown directive '#allow_reload=yes' at line 12 of /etc/asterisk/pjsip.conf
+[2025-11-25 14:56:51] WARNING[1] config.c: Unknown directive '#allow_reload=yes' at line 12 of /etc/asterisk/pjsip.conf
+[2025-11-25 14:56:51] WARNING[1] config.c: Unknown directive '#allow_reload=yes' at line 12 of /etc/asterisk/pjsip.conf
+[2025-11-25 14:56:51] ERROR[1] config_options.c: Could not find option suitable for category 'transport-wss' named 'allow_invalid_cert' at line 14 of 
+[2025-11-25 14:56:51] ERROR[1] res_sorcery_config.c: Could not create an object of type 'transport' with id 'transport-wss' from configuration file 'pjsip.conf'
+[2025-11-25 14:56:51] WARNING[1] config.c: Unknown directive '#allow_reload=yes' at line 12 of /etc/asterisk/pjsip.conf
+[2025-11-25 14:56:51] ERROR[1] config_options.c: Could not find option suitable for category '9008' named 'qualify_frequency' at line 66 of 
+[2025-11-25 14:56:51] ERROR[1] res_sorcery_config.c: Could not create an object of type 'endpoint' with id '9008' from configuration file 'pjsip.conf'
+[2025-11-25 14:56:51] WARNING[1] config.c: Unknown directive '#allow_reload=yes' at line 12 of /etc/asterisk/pjsip.conf
+[2025-11-25 14:56:51] WARNING[1] config.c: Unknown directive '#allow_reload=yes' at line 12 of /etc/asterisk/pjsip.conf
+[2025-11-25 14:56:51] WARNING[1] config.c: Unknown directive '#allow_reload=yes' at line 12 of /etc/asterisk/pjsip.conf
+[2025-11-25 14:56:51] WARNING[1] config.c: Unknown directive '#allow_reload=yes' at line 12 of /etc/asterisk/pjsip.conf
+[2025-11-25 14:56:51] WARNING[1] config.c: Unknown directive '#allow_reload=yes' at line 12 of /etc/asterisk/pjsip.conf
+[2025-11-25 14:56:51] WARNING[1] config.c: Unknown directive '#allow_reload=yes' at line 12 of /etc/asterisk/pjsip.conf
+[2025-11-25 14:56:51] ERROR[1] res_sorcery_config.c: Unable to load config file 'websocket_client.conf'
+[2025-11-25 14:56:51] WARNING[1] res_phoneprov.c: Unable to find a valid server address or name.
+[2025-11-25 14:56:51] NOTICE[1] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[2025-11-25 14:56:51] WARNING[1] config.c: Unknown directive '#allow_reload=yes' at line 12 of /etc/asterisk/pjsip.conf
+[2025-11-25 14:56:51] WARNING[1] config.c: Unknown directive '#allow_reload=yes' at line 12 of /etc/asterisk/pjsip.conf
+[2025-11-25 14:56:51] ERROR[1] res_sorcery_config.c: Unable to load config file 'chan_websocket.conf'
+[2025-11-25 14:56:51] WARNING[1] config.c: Unknown directive '#allow_reload=yes' at line 12 of /etc/asterisk/pjsip.conf
+[2025-11-25 14:56:51] WARNING[1] config.c: Unknown directive '#allow_reload=yes' at line 12 of /etc/asterisk/pjsip.conf
+[2025-11-25 14:56:51] WARNING[1] config.c: Unknown directive '#allow_reload=yes' at line 12 of /etc/asterisk/pjsip.conf
+[2025-11-25 14:56:51] NOTICE[1] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[2025-11-25 14:56:51] NOTICE[1] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[2025-11-25 14:56:51] WARNING[1] config.c: Unknown directive '#test' at line 35 of /etc/asterisk/extensions.conf
+[2025-11-25 14:56:51] WARNING[1] loader.c: Some non-required modules failed to load.
+[2025-11-25 14:56:51] WARNING[1] loader.c: Module 'res_adsi' has been loaded but may be removed in a future release.
+[2025-11-25 14:56:51] WARNING[1] loader.c: Module 'app_getcpeid' has been loaded but may be removed in a future release.
+[2025-11-25 14:56:51] WARNING[1] loader.c: Module 'app_adsiprog' has been loaded but may be removed in a future release.
+[2025-11-25 14:56:52] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
+[2025-11-25 14:56:52] ERROR[1] loader.c: cdr_csv declined to load.
+[2025-11-25 14:56:52] ERROR[1] loader.c: cel_sqlite3_custom declined to load.
+[2025-11-25 14:56:55] ERROR[93] iostream.c: Problem setting up ssl connection: error:00000001:lib(0)::reason(1), Internal SSL error
+[2025-11-25 14:56:55] ERROR[93] tcptls.c: Unable to set up ssl connection with peer '192.168.29.1:36135'
+[2025-11-25 14:56:55] ERROR[93] iostream.c: SSL_shutdown() failed: error:00000001:lib(0)::reason(1), Internal SSL error
+[2025-11-25 14:57:50] ERROR[95] iostream.c: Problem setting up ssl connection: error:00000001:lib(0)::reason(1), Internal SSL error
+[2025-11-25 14:57:50] ERROR[95] tcptls.c: Unable to set up ssl connection with peer '192.168.29.1:6691'
+[2025-11-25 14:57:50] ERROR[95] iostream.c: SSL_shutdown() failed: error:00000001:lib(0)::reason(1), Internal SSL error
+[2025-11-25 14:57:51] ERROR[97] iostream.c: Problem setting up ssl connection: error:00000001:lib(0)::reason(1), Internal SSL error
+[2025-11-25 14:57:51] ERROR[97] tcptls.c: Unable to set up ssl connection with peer '192.168.29.1:64635'
+[2025-11-25 14:57:51] ERROR[97] iostream.c: SSL_shutdown() failed: error:00000001:lib(0)::reason(1), Internal SSL error
+[2025-11-25 14:57:51] ERROR[99] iostream.c: Problem setting up ssl connection: error:00000001:lib(0)::reason(1), Internal SSL error
+[2025-11-25 14:57:51] ERROR[99] tcptls.c: Unable to set up ssl connection with peer '192.168.29.1:1686'
+[2025-11-25 14:57:51] ERROR[99] iostream.c: SSL_shutdown() failed: error:00000001:lib(0)::reason(1), Internal SSL error
+[2025-11-25 14:57:59] ERROR[101] iostream.c: Problem setting up ssl connection: error:00000001:lib(0)::reason(1), Internal SSL error
+[2025-11-25 14:57:59] ERROR[101] tcptls.c: Unable to set up ssl connection with peer '192.168.29.1:5374'
+[2025-11-25 14:57:59] ERROR[101] iostream.c: SSL_shutdown() failed: error:00000001:lib(0)::reason(1), Internal SSL error
