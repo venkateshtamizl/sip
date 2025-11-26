@@ -868,3 +868,4 @@ C067E8E315790000:error:0A080002:SSL routines:use_certificate_chain_file:system l
 [2025-11-26 15:43:00] ERROR[93] pjproject: 	   icess0x7631fcd9c038 ...Error sending STUN request: Invalid argument
 [2025-11-26 15:43:00] ERROR[60] pjproject: 	   icess0x7631fcd9c038 ..Error sending STUN request: Invalid argument
 [2025-11-26 15:43:06] ERROR[38] cdr_custom.c: Unable to re-open master file /var/log/asterisk/cdr-custom/Master.csv : No such file or directory
+[2025-11-26 15:44:47] ERROR[38] cdr_custom.c: Unable to re-open master file /var/log/asterisk/cdr-custom/Master.csv : No such file or directory
