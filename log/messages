@@ -725,3 +725,146 @@ C067E8E315790000:error:0A080002:SSL routines:use_certificate_chain_file:system l
 [2025-11-26 14:59:07] ERROR[123] chan_pjsip.c: Failed to create outgoing session to endpoint '9001'
 [2025-11-26 14:59:14] ERROR[123] res_pjsip.c: Endpoint '9001': Could not create dialog to invalid URI '9001'.  Is endpoint registered and reachable?
 [2025-11-26 14:59:14] ERROR[123] chan_pjsip.c: Failed to create outgoing session to endpoint '9001'
+[2025-11-26 15:05:32] Asterisk GIT-20-802781db3f built by root @ buildkitsandbox on a x86_64 running Linux on 2025-11-24 17:52:01 UTC
+[2025-11-26 15:05:32] NOTICE[1] loader.c: 318 modules will be loaded.
+[2025-11-26 15:05:34] NOTICE[1] cdr.c: CDR simple logging enabled.
+[2025-11-26 15:05:34] WARNING[1] http.c: Ignoring unknown option 'wsenabled' in http.conf
+[2025-11-26 15:05:34] NOTICE[1] indications.c: Default country for indication tones: us
+[2025-11-26 15:05:34] NOTICE[1] indications.c: Setting default indication country to 'us'
+[2025-11-26 15:05:42] WARNING[1] res_pjsip/config_transport.c: TLS certificate values ignored for websocket transport as they are configured in http.conf
+[2025-11-26 15:05:42] ERROR[1] res_sorcery_config.c: Unable to load config file 'websocket_client.conf'
+[2025-11-26 15:05:42] WARNING[1] res_phoneprov.c: Unable to find a valid server address or name.
+[2025-11-26 15:05:42] NOTICE[1] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[2025-11-26 15:05:42] ERROR[1] res_sorcery_config.c: Unable to load config file 'chan_websocket.conf'
+[2025-11-26 15:05:42] NOTICE[1] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[2025-11-26 15:05:42] NOTICE[1] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[2025-11-26 15:05:43] WARNING[1] config.c: Unknown directive '#test' at line 35 of /etc/asterisk/extensions.conf
+[2025-11-26 15:05:43] WARNING[1] loader.c: Some non-required modules failed to load.
+[2025-11-26 15:05:43] WARNING[1] loader.c: Module 'res_adsi' has been loaded but may be removed in a future release.
+[2025-11-26 15:05:43] WARNING[1] loader.c: Module 'app_getcpeid' has been loaded but may be removed in a future release.
+[2025-11-26 15:05:43] WARNING[1] loader.c: Module 'app_adsiprog' has been loaded but may be removed in a future release.
+[2025-11-26 15:05:43] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
+[2025-11-26 15:05:43] ERROR[1] loader.c: cdr_csv declined to load.
+[2025-11-26 15:05:43] ERROR[1] loader.c: cel_sqlite3_custom declined to load.
+[2025-11-26 15:08:23] Asterisk GIT-20-802781db3f built by root @ buildkitsandbox on a x86_64 running Linux on 2025-11-24 17:52:01 UTC
+[2025-11-26 15:08:23] NOTICE[1] loader.c: 318 modules will be loaded.
+[2025-11-26 15:08:25] NOTICE[1] cdr.c: CDR simple logging enabled.
+[2025-11-26 15:08:25] WARNING[1] http.c: Ignoring unknown option 'wsenabled' in http.conf
+[2025-11-26 15:08:25] NOTICE[1] indications.c: Default country for indication tones: us
+[2025-11-26 15:08:25] NOTICE[1] indications.c: Setting default indication country to 'us'
+[2025-11-26 15:08:25] WARNING[1] res_pjsip/config_transport.c: TLS certificate values ignored for websocket transport as they are configured in http.conf
+[2025-11-26 15:08:25] ERROR[1] res_sorcery_config.c: Unable to load config file 'websocket_client.conf'
+[2025-[2025-11-26 15:11:39] Asterisk GIT-20-802781db3f built by root @ buildkitsandbox on a x86_64 running Linux on 2025-11-24 17:52:01 UTC
+[2025-11-26 15:11:39] NOTICE[1] loader.c: 318 modules will be loaded.
+[2025-11-26 15:11:40] NOTICE[1] cdr.c: CDR simple logging enabled.
+[2025-11-26 15:11:40] WARNING[1] http.c: Ignoring unknown option 'wsenabled' in http.conf
+[2025-11-26 15:11:40] NOTICE[1] indications.c: Default country for indication tones: us
+[2025-11-26 15:11:40] NOTICE[1] indications.c: Setting default indication country to 'us'
+[2025-11-26 15:11:41] WARNING[1] res_pjsip/config_transport.c: TLS certificate values ignored for websocket transport as they are configured in http.conf
+[2025-11-26 15:11:41] ERROR[1] res_sorcery_config.c: Unable to load config file 'websocket_client.conf'
+[2025-11-26 15:11:41] WARNING[1] res_phoneprov.c: Unable to find a valid server address or name.
+[2025-11-26 15:11:41] NOTICE[1] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[2025-11-26 15:11:41] ERROR[1] res_sorcery_config.c: Unable to load config file 'chan_websocket.conf'
+[2025-11-26 15:11:41] NOTICE[1] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[2025-11-26 15:11:41] NOTICE[1] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[2025-11-26 15:11:41] WARNING[1] config.c: Unknown directive '#test' at line 35 of /etc/asterisk/extensions.conf
+[2025-11-26 15:11:41] WARNING[1] loader.c: Some non-required modules failed to load.
+[2025-11-26 15:11:41] WARNING[1] loader.c: Module 'res_adsi' has been loaded but may be removed in a future release.
+[2025-11-26 15:11:41] WARNING[1] loader.c: Module 'app_getcpeid' has been loaded but may be removed in a future release.
+[2025-11-26 15:11:41] WARNING[1] loader.c: Module 'app_adsiprog' has been loaded but may be removed in a future release.
+[2025-11-26 15:11:41] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
+[2025-11-26 15:11:41] ERROR[1] loader.c: cdr_csv declined to load.
+[2025-11-26 15:11:41] ERROR[1] loader.c: cel_sqlite3_custom declined to load.
+[2025-11-26 15:17:40] Asterisk GIT-20-802781db3f built by root @ buildkitsandbox on a x86_64 running Linux on 2025-11-24 17:52:01 UTC
+[2025-11-26 15:17:40] NOTICE[1] loader.c: 318 modules will be loaded.
+[2025-11-26 15:17:43] NOTICE[1] cdr.c: CDR simple logging enabled.
+[2025-11-26 15:17:43] WARNING[1] http.c: Ignoring unknown option 'wsenabled' in http.conf
+[2025-11-26 15:17:43] NOTICE[1] indications.c: Default country for indication tones: us
+[2025-11-26 15:17:43] NOTICE[1] indications.c: Setting default indication country to 'us'
+[2025-11-26 15:17:49] WARNING[1] res_pjsip/config_transport.c: TLS certificate values ignored for websocket transport as they are configured in http.conf
+[2025-11-26 15:17:49] ERROR[1] res_sorcery_config.c: Unable to load config file 'websocket_client.conf'
+[2025-11-26 15:17:49] WARNING[1] res_phoneprov.c: Unable to find a valid server address or name.
+[2025-11-26 15:17:49] NOTICE[1] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[2025-11-26 15:17:49] ERROR[1] res_sorcery_config.c: Unable to load config file 'chan_websocket.conf'
+[2025-11-26 15:17:50] NOTICE[1] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[2025-11-26 15:17:50] NOTICE[1] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[2025-11-26 15:17:50] WARNING[1] config.c: Unknown directive '#test' at line 35 of /etc/asterisk/extensions.conf
+[2025-11-26 15:17:50] WARNING[1] loader.c: Some non-required modules failed to load.
+[2025-11-26 15:17:50] WARNING[1] loader.c: Module 'res_adsi' has been loaded but may be removed in a future release.
+[2025-11-26 15:17:50] WARNING[1] loader.c: Module 'app_getcpeid' has been loaded but may be removed in a future release.
+[2025-11-26 15:17:50] WARNING[1] loader.c: Module 'app_adsiprog' has been loaded but may be removed in a future release.
+[2025-11-26 15:17:50] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
+[2025-11-26 15:17:50] ERROR[1] loader.c: cdr_csv declined to load.
+[2025-11-26 15:17:50] ERROR[1] loader.c: cel_sqlite3_custom declined to load.
+[2025-11-26 15:20:32] Asterisk GIT-20-802781db3f built by root @ buildkitsandbox on a x86_64 running Linux on 2025-11-24 17:52:01 UTC
+[2025-11-26 15:20:32] NOTICE[1] loader.c: 318 modules will be loaded.
+[2025-11-26 15:20:34] NOTICE[1] cdr.c: CDR simple logging enabled.
+[2025-11-26 15:20:34] WARNING[1] http.c: Ignoring unknown option 'wsenabled' in http.conf
+[2025-11-26 15:20:34] NOTICE[1] indications.c: Default country for indication tones: us
+[2025-11-26 15:20:34] NOTICE[1] indications.c: Setting default indication country to 'us'
+[2025-11-26 15:20:34] WARNING[1] res_pjsip/config_transport.c: TLS certificate values ignored for websocket transport as they are configured in http.conf
+[2025-11-26 15:20:34] ERROR[1] res_sorcery_config.c: Unable to load config file 'websocket_client.conf'
+[2025-11-26 15:20:34] WARNING[1] res_phoneprov.c: Unable to find a valid server address or name.
+[2025-11-26 15:20:34] NOTICE[1] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[2025-11-26 15:20:34] ERROR[1] res_sorcery_config.c: Unable to load config file 'chan_websocket.conf'
+[2025-11-26 15:20:34] NOTICE[1] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[2025-11-26 15:20:34] NOTICE[1] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[2025-11-26 15:20:35] WARNING[1] config.c: Unknown directive '#test' at line 35 of /etc/asterisk/extensions.conf
+[2025-11-26 15:20:35] WARNING[1] loader.c: Some non-required modules failed to load.
+[2025-11-26 15:20:35] WARNING[1] loader.c: Module 'res_adsi' has been loaded but may be removed in a future release.
+[2025-11-26 15:20:35] WARNING[1] loader.c: Module 'app_getcpeid' has been loaded but may be removed in a future release.
+[2025-11-26 15:20:35] WARNING[1] loader.c: Module 'app_adsiprog' has been loaded but may be removed in a future release.
+[2025-11-26 15:20:35] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
+[2025-11-26 15:20:35] ERROR[1] loader.c: cdr_csv declined to load.
+[2025-11-26 15:20:35] ERROR[1] loader.c: cel_sqlite3_custom declined to load.
+[2025-11-26 15:24:24] Asterisk GIT-20-802781db3f built by root @ buildkitsandbox on a x86_64 running Linux on 2025-11-24 17:52:01 UTC
+[2025-11-26 15:24:24] NOTICE[1] loader.c: 318 modules will be loaded.
+[2025-11-26 15:24:25] NOTICE[1] cdr.c: CDR simple logging enabled.
+[2025-11-26 15:24:25] WARNING[1] http.c: Ignoring unknown option 'wsenabled' in http.conf
+[2025-11-26 15:24:25] NOTICE[1] indications.c: Default country for indication tones: us
+[2025-11-26 15:24:25] NOTICE[1] indications.c: Setting default indication country to 'us'
+[2025-11-26 15:24:25] WARNING[1] res_pjsip/config_transport.c: TLS certificate values ignored for websocket transport as they are configured in http.conf
+[2025-11-26 15:24:25] ERROR[1] res_sorcery_config.c: Unable to load config file 'websocket_client.conf'
+[2025-11-26 15:24:25] WARNING[1] res_phoneprov.c: Unable to find a valid server address or name.
+[2025-11-26 15:24:25] NOTICE[1] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[2025-11-26 15:24:25] ERROR[1] res_sorcery_config.c: Unable to load config file 'chan_websocket.conf'
+[2025-11-26 15:24:26] NOTICE[1] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[2025-11-26 15:24:26] NOTICE[1] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[2025-11-26 15:24:26] WARNING[1] config.c: Unknown directive '#test' at line 35 of /etc/asterisk/extensions.conf
+[2025-11-26 15:24:26] WARNING[1] loader.c: Some non-required modules failed to load.
+[2025-11-26 15:24:26] WARNING[1] loader.c: Module 'res_adsi' has been loaded but may be removed in a future release.
+[2025-11-26 15:24:26] WARNING[1] loader.c: Module 'app_getcpeid' has been loaded but may be removed in a future release.
+[2025-11-26 15:24:26] WARNING[1] loader.c: Module 'app_adsiprog' has been loaded but may be removed in a future release.
+[2025-11-26 15:24:26] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
+[2025-11-26 15:24:26] ERROR[1] loader.c: cdr_csv declined to load.
+[2025-11-26 15:24:26] ERROR[1] loader.c: cel_sqlite3_custom declined to load.
+[2025-11-26 15:33:05] Asterisk GIT-20-802781db3f built by root @ buildkitsandbox on a x86_64 running Linux on 2025-11-24 17:52:01 UTC
+[2025-11-26 15:33:05] NOTICE[1] loader.c: 318 modules will be loaded.
+[2025-11-26 15:33:05] NOTICE[1] cdr.c: CDR simple logging enabled.
+[2025-11-26 15:33:05] WARNING[1] http.c: Ignoring unknown option 'wsenabled' in http.conf
+[2025-11-26 15:33:06] NOTICE[1] indications.c: Default country for indication tones: us
+[2025-11-26 15:33:06] NOTICE[1] indications.c: Setting default indication country to 'us'
+[2025-11-26 15:33:09] WARNING[1] res_pjsip/config_transport.c: TLS certificate values ignored for websocket transport as they are configured in http.conf
+[2025-11-26 15:33:09] ERROR[1] res_sorcery_config.c: Unable to load config file 'websocket_client.conf'
+[2025-11-26 15:33:09] WARNING[1] res_phoneprov.c: Unable to find a valid server address or name.
+[2025-11-26 15:33:09] NOTICE[1] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[2025-11-26 15:33:09] ERROR[1] res_sorcery_config.c: Unable to load config file 'chan_websocket.conf'
+[2025-11-26 15:33:09] NOTICE[1] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[2025-11-26 15:33:09] NOTICE[1] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[2025-11-26 15:33:10] WARNING[1] config.c: Unknown directive '#test' at line 35 of /etc/asterisk/extensions.conf
+[2025-11-26 15:33:10] WARNING[1] loader.c: Some non-required modules failed to load.
+[2025-11-26 15:33:10] WARNING[1] loader.c: Module 'res_adsi' has been loaded but may be removed in a future release.
+[2025-11-26 15:33:10] WARNING[1] loader.c: Module 'app_getcpeid' has been loaded but may be removed in a future release.
+[2025-11-26 15:33:10] WARNING[1] loader.c: Module 'app_adsiprog' has been loaded but may be removed in a future release.
+[2025-11-26 15:33:10] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
+[2025-11-26 15:33:10] ERROR[1] loader.c: cdr_csv declined to load.
+[2025-11-26 15:33:10] ERROR[1] loader.c: cel_sqlite3_custom declined to load.
+[2025-11-26 15:41:52] ERROR[91] iostream.c: Problem setting up ssl connection: error:00000001:lib(0)::reason(1), Internal SSL error
+[2025-11-26 15:41:52] ERROR[91] tcptls.c: Unable to set up ssl connection with peer '192.168.29.1:54150'
+[2025-11-26 15:41:52] ERROR[91] iostream.c: SSL_shutdown() failed: error:00000001:lib(0)::reason(1), Internal SSL error
+[2025-11-26 15:42:22] ERROR[98] iostream.c: Problem setting up ssl connection: error:00000001:lib(0)::reason(1), Internal SSL error
+[2025-11-26 15:42:22] ERROR[98] tcptls.c: Unable to set up ssl connection with peer '192.168.29.1:8110'
+[2025-11-26 15:42:22] ERROR[98] iostream.c: SSL_shutdown() failed: error:00000001:lib(0)::reason(1), Internal SSL error
+[2025-11-26 15:43:00] ERROR[93] pjproject: 	   icess0x7631fcd9c038 ...Error sending STUN request: Invalid argument
+[2025-11-26 15:43:00] ERROR[60] pjproject: 	   icess0x7631fcd9c038 ..Error sending STUN request: Invalid argument
+[2025-11-26 15:43:06] ERROR[38] cdr_custom.c: Unable to re-open master file /var/log/asterisk/cdr-custom/Master.csv : No such file or directory
